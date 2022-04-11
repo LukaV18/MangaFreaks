@@ -5,9 +5,15 @@
 }
 
 .card {
-  background: linear-gradient( 221deg, rgba(250, 128, 114) 0%, rgba(219, 152, 51) 50%, rgba(250, 128, 114) 100% );
+  background: linear-gradient(
+    221deg,
+    rgba(250, 128, 114) 0%,
+    rgba(219, 152, 51) 50%,
+    rgba(250, 128, 114) 100%
+  );
 }
-.btn-primary:hover, .btn-primary:focus {
+.btn-primary:hover,
+.btn-primary:focus {
   color: #fff;
   color: #fff;
   background-color: #d37678;
@@ -20,8 +26,8 @@
 
 .form-check-label {
   margin-left: 0px;
-    font-size: 14px;
-    padding: 0px 2px !important;
+  font-size: 14px;
+  padding: 0px 2px !important;
 }
 
 .form-check-input:checked {
@@ -32,7 +38,7 @@
 .btn-primary {
   color: #000;
   background-color: #d37678;
-    border-color: #d16895;
+  border-color: #d16895;
 }
 
 .btn-primary:active {
@@ -44,11 +50,10 @@ body {
   color: #000;
   overflow-x: hidden;
   height: 100%;
- 
-  background-repeat: no-repeat;
-  background-size: 100% 100%
-}
 
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 
 #LogIn {
   position: absolute;
@@ -65,11 +70,11 @@ body {
 }
 
 .blue-text {
-  color: #00BCD4
+  color: #00bcd4;
 }
 
 .form-control-label {
-  margin-bottom: 0
+  margin-bottom: 0;
 }
 
 input,
@@ -81,8 +86,7 @@ button {
   box-sizing: border-box;
   border: 1px solid #ccc;
   font-size: 18px !important;
-  font-weight: 300
-
+  font-weight: 300;
 }
 
 input:focus,
@@ -90,9 +94,9 @@ textarea:focus {
   -moz-box-shadow: none !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
-  border: 1px solid #00BCD4;
+  border: 1px solid #00bcd4;
   outline-width: 0;
-  font-weight: 400
+  font-weight: 400;
 }
 
 .btn-block {
@@ -100,18 +104,18 @@ textarea:focus {
   font-size: 15px !important;
   font-weight: 400;
   height: 43px;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .btn-block:hover {
-  color: #fff !important
+  color: #fff !important;
 }
 
 button:focus {
   -moz-box-shadow: none !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
-  outline-width: 0
+  outline-width: 0;
 }
 
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
@@ -246,8 +250,6 @@ body {
     1920px;
 }
 
-
-
 .gridContainerMangaLibros {
   display: grid;
 
@@ -362,9 +364,7 @@ body {
   margin-left: 340px;
   cursor: pointer;
   font-size: 25px;
-  
 }
-
 
 .buyBtn i {
   color: black;
@@ -375,7 +375,6 @@ body {
   margin-left: 30px;
   cursor: pointer;
   font-size: 25px;
-  
 }
 
 .userLog i {
@@ -571,7 +570,7 @@ h3 .seleccion2 {
   margin-left: 17px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    height: 10px;
+  height: 10px;
 }
 
 .contenidoInfoMangaLibros h2 {
@@ -600,7 +599,7 @@ h3 .seleccion2 {
   color: #000;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    margin-top: 33px;
+  margin-top: 33px;
   margin-right: 30px;
   font-size: 25px;
 
@@ -628,7 +627,7 @@ h3 .seleccion2 {
   color: #000;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    margin-top: 21px;
+  margin-top: 21px;
   margin-right: 87px;
   font-size: 25px;
 
@@ -1162,7 +1161,7 @@ footer .footerLeft {
     "h21"
     "formularioMain"
     "subHome"
-    "footer" 
+    "footer";
 }
 
 .contenedor {
@@ -1262,10 +1261,10 @@ footer .footerLeft {
   .subHomeContainer {
     width: 100%;
     padding: 16px 60px;
-}
+  }
   .gridContainer {
     display: grid;
-  
+
     grid-template:
       "descuentoTitulo"
       "header"
@@ -1294,9 +1293,7 @@ footer .footerLeft {
       "formularioMain"
       "subHome"
       "footer" / 1024px;
-      
   }
-
 
   .Logo {
     margin-left: 0px;
@@ -1305,15 +1302,15 @@ footer .footerLeft {
   .gridContainerMangaLibros {
     display: grid;
     grid-template:
-        "descuentoTitulo"
-        "header"
-        "h21"
-        "selector"
-        "contenidoContenedorMangaLibros"
-        "subHome"
-        "footer" /
-        1024px;
-}
+      "descuentoTitulo"
+      "header"
+      "h21"
+      "selector"
+      "contenidoContenedorMangaLibros"
+      "subHome"
+      "footer" /
+      1024px;
+  }
   .precio1Oferta {
     display: block;
     font-weight: 400;
@@ -1419,7 +1416,6 @@ footer .footerLeft {
     font-size: 20px;
   }
 
-  
   .navMenu {
     display: flex;
     justify-content: space-between;
@@ -1439,6 +1435,7 @@ footer .footerLeft {
     margin-left: 11px;
     margin-top: 120px;
     width: 800px;
+    margin-right: 54px;
   }
 
   .navMenuItems li {
@@ -1469,9 +1466,10 @@ footer .footerLeft {
   }
   .buyBtn {
     margin-bottom: 60px;
-    margin-left: 0px;
+    margin-left: 900px;
     cursor: pointer;
     font-size: 25px;
+    position: absolute;
   }
 
   .userLog {
@@ -1570,7 +1568,6 @@ footer .footerLeft {
     flex-wrap: nowrap;
     justify-content: end;
 
-    
     background: linear-gradient(
       180deg,
       rgba(250, 128, 114) 0%,
@@ -1691,10 +1688,9 @@ footer .footerLeft {
     color: #fff;
   }
   .contenido {
-      width: 300px;
-  
+    width: 300px;
   }
-  
+
   .contenidoInfo {
     color: black;
     margin-top: 0px;
@@ -1731,7 +1727,7 @@ footer .footerLeft {
     color: #000;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-      margin-top: 32px;
+    margin-top: 32px;
     margin-right: 20px;
     font-size: 25px;
     font-weight: 700;
@@ -1763,7 +1759,7 @@ footer .footerLeft {
   }
   .footer .footerCenter {
     width: 45%;
-}
+  }
 
   .footer .footerCenter p {
     font-size: 18px;
@@ -1771,7 +1767,7 @@ footer .footerLeft {
 
   .footer .footerRight {
     width: 15%;
-}
+  }
   .footer .footerAbout {
     font-size: 17px;
   }
@@ -1783,79 +1779,74 @@ footer .footerLeft {
   .footer .footerIcons {
     text-align: center;
   }
-
 }
- 
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  
-
   .footer .footerCenter i {
-
-    margin: 10px 2px
+    margin: 10px 2px;
   }
- .bodycontact {
-  background-image: url(./Imagenes/mangabackground2.jpg);
-  background-size: 120%;
-  background-position: -40px;
-  background-attachment:fixed;
-  background-repeat: repeat;
-  display: grid;
-  grid-template:
-    "descuentoTitulo"
-    "header"
-    "h21"
-    "formularioMain"
-    "subHome"
-    "footer" 
-}
-  
+  .bodycontact {
+    background-image: url(./Imagenes/mangabackground2.jpg);
+    background-size: 120%;
+    background-position: -40px;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    display: grid;
+    grid-template:
+      "descuentoTitulo"
+      "header"
+      "h21"
+      "formularioMain"
+      "subHome"
+      "footer";
+  }
+
   .gridContainerOfertas {
     display: grid;
     grid-template:
-        "descuentoTitulo"
-        "header"
-        "h21"
-        "contenidoContenedor"
-        "subHome"
-        "footer" / 768px;
-}
+      "descuentoTitulo"
+      "header"
+      "h21"
+      "contenidoContenedor"
+      "subHome"
+      "footer" / 768px;
+  }
   .gridContainerMangaLibros {
     display: grid;
     grid-template:
-        "descuentoTitulo"
-        "header"
-        "h21"
-        "selector"
-        "contenidoContenedorMangaLibros"
-        "subHome"
-        "footer" / 768px;
-}
-
-  .searchBar {
-    margin-left: 0px; 
+      "descuentoTitulo"
+      "header"
+      "h21"
+      "selector"
+      "contenidoContenedorMangaLibros"
+      "subHome"
+      "footer" / 768px;
   }
 
-  .navMenu { 
+  .searchBar {
+    margin-left: 0px;
+  }
+
+  .navMenu {
     width: 768px;
-}
+  }
 
   .gridContainer {
     display: grid;
     grid-template:
-        "descuentoTitulo"
-        "header"
-        "h21"
-        "main1"
-        "h22"
-        "main2"
-        "tituloVioleta"
-        "main3"
-        "bannerHome"
-        "subHome"
-        "footer" /
-        768px;
-}
+      "descuentoTitulo"
+      "header"
+      "h21"
+      "main1"
+      "h22"
+      "main2"
+      "tituloVioleta"
+      "main3"
+      "bannerHome"
+      "subHome"
+      "footer" /
+      768px;
+  }
   .precio1Oferta {
     display: block;
     font-weight: 400;
@@ -1928,9 +1919,10 @@ footer .footerLeft {
 
   .buyBtn {
     margin-bottom: 60px;
-    margin-left: 0px;
+    margin-left: 665px;
     cursor: pointer;
     font-size: 24px;
+    position: absolute;
   }
 
   .userLog {
@@ -1941,15 +1933,20 @@ footer .footerLeft {
   }
 
   .navMenuItems li {
-    
-      padding: 0px 0px;
-      margin: 0 7px;
-  
+    padding: 0px 0px;
+    margin: 0 7px;
   }
 
   .navMenuItems {
     width: max-content;
     margin-left: 0px;
+    margin-right: 86px;
+  }
+
+  input,
+  textarea,
+  button {
+    font-size: 15px !important;
   }
 
   .navMenuItems li i {
@@ -1957,13 +1954,13 @@ footer .footerLeft {
     border-radius: 3px;
     font-size: 22px;
     margin-left: 0px;
-    margin-right: 9px;  
+    margin-right: 9px;
   }
 
   .navMenuItems li a {
     padding: 0px 0px;
     font-size: 16px;
-}
+  }
 
   .paginacion .crumbActive {
     font-size: 20px;
@@ -2027,7 +2024,7 @@ footer .footerLeft {
   .bannerRow {
     width: 100%;
     margin: 0px 10px;
-}
+  }
 
   .emailLargo {
     font-size: 24px;
@@ -2063,18 +2060,17 @@ footer .footerLeft {
   }
   .subHomeContainerCentro {
     padding: 18px 50px;
-
   }
   .subContenido1 {
     font-size: 17px;
-    
+
     max-width: 60%;
     margin-left: 50px;
-}
-  
+  }
+
   .subContenido2 {
     margin-top: 0px;
-}
+  }
 
   .contenidoInfoMangaLibros h2 {
     font-size: 24px;
@@ -2093,26 +2089,26 @@ footer .footerLeft {
     font-size: 22px;
   }
 
-  .selectorContainer  {
+  .selectorContainer {
     width: 66%;
   }
   .footer {
     padding: 28px 5px;
   }
- .footerLeft {
+  .footerLeft {
     width: 40%;
-}
+  }
 
-.footer h3 {
-  font-size: 27px;
-}
+  .footer h3 {
+    font-size: 27px;
+  }
 
   .LogoImagen {
     width: 80px;
   }
 
   .footer .footerLinks {
-    font-size: 13px; 
+    font-size: 13px;
   }
 
   .footer .footerCompName {
@@ -2124,13 +2120,11 @@ footer .footerLeft {
     width: 45%;
     padding: 0px;
     margin-top: 48px;
-}
+  }
 
-  
-
-.footer .footerCenter p {
-  font-size: 12px;
-}
+  .footer .footerCenter p {
+    font-size: 12px;
+  }
 
   .footer .footerRight {
     width: 30%;
@@ -2157,37 +2151,37 @@ footer .footerLeft {
     margin-bottom: 0px;
   }
 
-  .contenidoInfo h2, .contenidoInfoMangaLibros h2{
+  .contenidoInfo h2,
+  .contenidoInfoMangaLibros h2 {
     font-size: 17px;
   }
 }
 
-@media screen and (max-width: 374px) and (max-width: 424px) {
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .bannerRow:hover {
+    transform: scale(1.06);
+    transition: transform 0.3s;
+  }
   input,
-textarea,
-button {
-  padding: 8px 15px;
-  border-radius: 0px ;
-  margin: 0px 0px;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  font-size: 18px !important;
-  font-weight: 300;
-  border-radius: 0px ;
-  border-top-left-radius: 5px ;
-  border-top-right-radius: 5px ;
-  border-bottom-right-radius: 5px ;
-  border-bottom-left-radius: 5px ;
-}
-
-  .contenedorForm {
- 
-      padding: 12px;
-    
-
+  textarea,
+  button {
+    padding: 8px 15px;
+    border-radius: 0px;
+    margin: 0px 0px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 18px !important;
+    font-weight: 300;
+    border-radius: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
   }
 
-
+  .contenedorForm {
+    padding: 12px;
+  }
 
   .bodycontact {
     background-image: url(./Imagenes/mangabackground2.jpg);
@@ -2204,11 +2198,10 @@ button {
       "subHome"
       "footer" / 320px;
   }
-  
+
   .gridContainer {
     display: grid;
-    
-    
+
     grid-template:
       "descuentoTituloCont"
       "header"
@@ -2221,8 +2214,7 @@ button {
       "bannerHome"
       "subHome"
       "footer" / 320px;
-
-}
+  }
   .selector {
     padding: 6px 6px;
   }
@@ -2230,19 +2222,29 @@ button {
   .gridContainerMangaLibros {
     display: grid;
     width: fit-content;
-    
-    grid-template: 
-        "descuentoTitulo" 
-        "header"
-        "h21"
-        "selector"
-        "contenidoContenedorMangaLibros"
-        "subHome"
-        "footer" /
-        320px;
-       
-        
-}
+
+    grid-template:
+      "descuentoTitulo"
+      "header"
+      "h21"
+      "selector"
+      "contenidoContenedorMangaLibros"
+      "subHome"
+      "footer" /
+      320px;
+  }
+
+  .gridContainerOfertas {
+    display: grid;
+    grid-template:
+      "descuentoTitulo"
+      "header"
+      "h21"
+      "contenidoContenedor"
+      "subHome"
+      "footer" /
+      320px;
+  }
 
   .navMenuItems li:hover,
   li:active {
@@ -2258,9 +2260,7 @@ button {
     color: #000;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    
-    
-    
+
     font-weight: 700;
     margin-top: 0px;
     margin-right: 77px;
@@ -2275,7 +2275,6 @@ button {
     width: 60px;
     transform: scale(0.9);
 
-    
     -webkit-border-radius: 0 4px 0 4px;
     -moz-border-radius: 0 4px 0 4px;
     border-radius: 0 4px 4px 0;
@@ -2285,7 +2284,7 @@ button {
     float: right;
 
     margin-top: 0px;
-    margin-right: 20px;
+    margin-right: 7px;
     background-image: linear-gradient(315deg, red 0%, #db9833 74%);
     font-size: 1.1em;
     padding: 8px;
@@ -2347,7 +2346,7 @@ button {
 
   .barBtn {
     display: flex;
-   
+
     margin-right: 25px;
     font-size: 50px;
     margin-top: 55px;
@@ -2380,7 +2379,7 @@ button {
     height: 0;
     top: 174px;
     text-align: center;
-    
+
     opacity: 0.2;
     transition: 0.5s;
   }
@@ -2390,18 +2389,17 @@ button {
     line-height: 38px;
     margin: 42px 0px;
     padding: 0;
-    -webkit-transition: 1s  ease;
-  -ms-transition: 1s  ease;
-  transition: 1s ease;
-  
+    -webkit-transition: 1s ease;
+    -ms-transition: 1s ease;
+    transition: 1s ease;
   }
 
   .navMenuItems li a {
     color: #fff;
-    -webkit-transition: 1s  ease;
-  -ms-transition: 1s  ease;
-  transition: 1s ease;
-  font-size: 20px;
+    -webkit-transition: 1s ease;
+    -ms-transition: 1s ease;
+    transition: 1s ease;
+    font-size: 20px;
   }
 
   .navMenuItems li i {
@@ -2415,14 +2413,11 @@ button {
 
   .searchBar input {
     width: 288px;
-    
   }
 
   .searchBar {
-   
-      margin-left: 3%;
-      margin-bottom: 70px;
-  
+    margin-left: 3%;
+    margin-bottom: 70px;
   }
 
   .searchBarBtn {
@@ -2435,26 +2430,26 @@ button {
     position: absolute;
     font-size: 30px;
     margin-top: 150px;
-    margin-left: 180px;
+    margin-left: 120px;
     cursor: pointer;
   }
 
   .userLog {
     position: absolute;
     font-size: 30px;
-    margin-top: 150px;
-    margin-left: 115px;
+    margin-top: 0px;
+    margin-left: 35px;
     cursor: pointer;
   }
 
   #check:checked ~ .navMenuItems {
     height: 100vh;
     z-index: 10;
-    -webkit-transition: 0.1s  ease-in-out;
-  -ms-transition:0.1s  ease-in-out;
-  transition: 0.1s ease-in-out;
-  opacity: 1;
-  width: 320px;
+    -webkit-transition: 0.1s ease-in-out;
+    -ms-transition: 0.1s ease-in-out;
+    transition: 0.1s ease-in-out;
+    opacity: 1;
+    width: 320px;
   }
 
   #check:checked ~ .navMenuItems li {
@@ -2464,8 +2459,6 @@ button {
     margin: 0;
     margin-top: 7px;
   }
-
-  
 
   .contenido,
   .contenidoMangaLibros {
@@ -2486,15 +2479,12 @@ button {
     margin-right: 0;
     padding: 0;
     font-size: 26px;
-    
   }
   .carritoIconoMangaLibros {
-
     margin-right: 56px;
-      padding: 6px 12px;
-      margin-top: 26px;
+    padding: 6px 12px;
+    margin-top: 26px;
   }
-  
 
   .contenidoImagen img {
     height: 350px;
@@ -2513,7 +2503,7 @@ button {
   }
 
   .carritoIcono .fa-cart-plus {
-    margin-right: 50px;
+    margin-right: 55px;
     padding: 6px 12px;
     margin-top: 5px;
   }
@@ -2521,7 +2511,7 @@ button {
   .fa-cart-plus:before {
     content: "\f217";
     font-size: 15px;
-}
+  }
 
   .contenidoInfo,
   .contenidoInfoMangaLibros {
@@ -2536,8 +2526,8 @@ button {
     font-size: 20px;
     font-weight: 600;
     text-align: center;
+    width: 257px;
   }
-
   .precio1 {
     margin-top: 23px;
     margin-right: 15px;
@@ -2571,10 +2561,8 @@ button {
   }
 
   .imagenBanner {
-    
-      width: 100%;
-      height: 120px;
-  
+    width: 100%;
+    height: 120px;
   }
 
   .bannerContainer {
@@ -2585,32 +2573,27 @@ button {
   }
 
   .bannerRow {
-    margin-left: -30px;
+    margin-left: -33px;
     width: 130%;
     height: auto;
   }
 
   .subContenido1 {
-   
-    
-      font-size: 17px;
-      max-width: 100%;
-      text-align: center;
-      padding: 8px;
-      margin-bottom: 0px;
-  
-  
+    font-size: 17px;
+    max-width: 100%;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 0px;
   }
   .subContenido2 {
     display: flex;
     height: 37px;
-    margin-top: -20px
-    }
-  
+    margin-top: -20px;
+  }
 
   .emailLargo {
     font-size: 16px;
-    
+
     width: 200px;
   }
 
@@ -2659,18 +2642,15 @@ button {
 
   .footer .footerCenter {
     width: auto;
-    padding: 20px;
+    padding: 20px 0px;
   }
 
   .footer .footerCenter i {
-    
     margin: 19px 5px;
   }
 
   .footer .footerCenter p {
-    
     font-size: 12px;
-
   }
 
   .footer .footerRight {
@@ -2684,7 +2664,7 @@ button {
   .footer .footerAbout {
     line-height: 40px;
     color: #92999f;
-    font-size: 23px;
+    font-size: 16px;
   }
 
   .footer .footerIcons {
@@ -2704,9 +2684,9 @@ button {
     height: 50px;
   }
 
- .paginacion {
-  width: 280px;
- }
+  .paginacion {
+    width: 280px;
+  }
 
   .selectorContainer {
     width: 100%;
@@ -2749,638 +2729,18 @@ button {
   }
   .contenedor .form .btnSumbit {
     font-size: 30px;
-  } 
+  }
 
   .subHomeContainer {
     width: 100%;
     padding: 20px 20px;
-}
-
-.form-control-label {
-  margin-bottom: 0;
-  font-size: 16px;
-}
-
-
-.form-check {
-  padding-left: 0.5em;
-}
-.formularioMain input {
-  padding: 8px 11px;
-  font-size: 12px !important;
-}
-.fs-6 {
-  font-size: 14px;
-}
-
-.form-check-label {
-  margin-left: 11px;
-    font-size: 14px;
-    padding: 0!important;
-}
-}
-
-@media screen and (min-width: 425px)  and (max-width: 767px) {
-  input,
-  textarea,
-  button {
-    padding: 8px 15px;
-    border-radius: 0px ;
-    margin: 0px 0px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    font-size: 18px !important;
-    font-weight: 300;
-    border-radius: 0px ;
-    border-top-left-radius: 5px ;
-    border-top-right-radius: 5px ;
-    border-bottom-right-radius: 5px ;
-    border-bottom-left-radius: 5px ;
   }
-  
-    .contenedorForm {
-   
-        padding: 12px;
-      
-  
-    }
-  
-  
-  
-    .bodycontact {
-      background-image: url(./Imagenes/mangabackground2.jpg);
-      background-size: 110%;
-      background-position: -10px;
-      background-attachment: fixed;
-      background-repeat: repeat;
-      display: grid;
-      grid-template:
-        "descuentoTituloCont"
-        "header"
-        "h21"
-        "formularioMain"
-        "subHome"
-        "footer" / 375px;
-    }
-    
-    .gridContainer {
-      display: grid;
-      
-      
-      grid-template:
-        "descuentoTituloCont"
-        "header"
-        "h21"
-        "main1"
-        "h22"
-        "main2"
-        "tituloVioleta"
-        "main3"
-        "bannerHome"
-        "subHome"
-        "footer" / 375px;
-  
-  }
-    .selector {
-      padding: 6px 6px;
-    }
-  
-    .gridContainerMangaLibros {
-      display: grid;
-      width: fit-content;
-      
-      grid-template: 
-          "descuentoTitulo" 
-          "header"
-          "h21"
-          "selector"
-          "contenidoContenedorMangaLibros"
-          "subHome"
-          "footer" /
-          375px;
-         
-          
-  }
-  
-    .navMenuItems li:hover,
-    li:active {
-      background-color: rgba(255, 228, 196, 0.3);
-  
-      margin-bottom: 10px;
-      transition: 0.4s;
-    }
-    .precio1Oferta {
-      display: block;
-      font-weight: 400;
-      font-size: 22px;
-      color: #000;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-      margin-top: 25px;
-      margin-right: 108px;
-      font-size: 40px;
-      font-weight: 700;
-    }
-    .discount-label {
-      padding: 8px;
-      position: relative;
-      float: right;
-      margin-top: 31px;
-      margin-right: 7px;
-      width: 60px;
-  
-      transform: scale(1.3);
-      -webkit-border-radius: 0 4px 0 4px;
-      -moz-border-radius: 0 4px 0 4px;
-      border-radius: 0 4px 4px 0;
-    }
-  
-    .carritoIconoOfertas .fa-cart-plus {
-      float: right;
-  
-      margin-top: 23px;
-      margin-right: 13px;
-      background-image: linear-gradient(315deg, red 0%, #db9833 74%);
-      font-size: 1.1em;
-      padding: 19px;
-      border-radius: 20px;
-      text-transform: uppercase;
-      font-weight: 600;
-      cursor: pointer;
-      color: #fff;
-      -ms-transition: 0.3s ease-in-out;
-      -webkit-transition: 0.3s ease-in-out;
-      transition: 0.3s ease-in-out;
-    }
-  
-    .carritoIconoOfertas .fa-cart-plus:hover {
-      background-image: linear-gradient(315deg, red 0%, #db7133 74%);
-      -webkit-transform: scale(1.1);
-      transform: scale(1.1);
-  
-      -webkit-transition: 0.3s ease-in-out;
-      -ms-transition: 0.3s ease-in-out;
-      transition: 0.3s ease-in-out;
-    }
-  
-    .carritoIconoOfertas i {
-      font-size: 30px;
-      line-height: 26px;
-    }
-    .seleccion {
-      font-size: 30px;
-      margin-top: 141px;
-      padding: 30px 12px;
-    }
-    .descuentoTituloCont {
-      height: 17px;
-      top: 0;
-      z-index: 10000;
-    }
-    .header {
-      position: fixed;
-      width: 320px;
-      top: 0;
-      z-index: 9999;
-      border-bottom: px solid darksalmon;
-      padding: 12px 0;
-      box-shadow: 0px 2px 15px #000;
-    }
-  
-    .descuentoTexto {
-      background: linear-gradient(
-        90deg,
-        rgba(250, 128, 114) 0%,
-        darksalmon 50%,
-        rgba(250, 128, 114) 100%
-      );
-      text-align: center;
-      font-size: 14px;
-      font-weight: 100;
-    }
-  
-    .barBtn {
-      display: flex;
-     
-      margin-right: 25px;
-      font-size: 50px;
-      margin-top: 55px;
-    }
-  
-    #check {
-      display: none;
-    }
-  
-    .Logo {
-      display: flex;
-      margin-left: 0px;
-      margin-top: 70px;
-    }
-  
-    .navMenu {
-      height: 150px;
-      display: flex;
-      width: 100%;
-      justify-content: space-between;
-    }
-  
-    .navMenuItems {
-      position: fixed;
-      padding: 0;
-      margin: 0;
-      display: block;
-      background: rgba(0, 0, 0, 0.9);
-      width: 100%;
-      height: 0;
-      top: 174px;
-      text-align: center;
-      
-      opacity: 0.2;
-      transition: 0.5s;
-    }
-  
-    .navMenuItems li {
-      display: none;
-      line-height: 38px;
-      margin: 42px 0px;
-      padding: 0;
-      -webkit-transition: 1s  ease;
-    -ms-transition: 1s  ease;
-    transition: 1s ease;
-    
-    }
-  
-    .navMenuItems li a {
-      color: #fff;
-      -webkit-transition: 1s  ease;
-    -ms-transition: 1s  ease;
-    transition: 1s ease;
-    font-size: 20px;
-    }
-  
-    .navMenuItems li i {
-      display: none;
-    }
-  
-    .navMenuItems li a:hover {
-      color: darksalmon;
-      transition: 0.3s;
-    }
-  
-    .searchBar input {
-      width: 288px;
-      
-    }
-  
-    .searchBar {
-     
-        margin-left: 3%;
-        margin-bottom: 70px;
-    
-    }
-  
-    .searchBarBtn {
-      top: 0;
-      right: 0;
-      
-    }
-  
-    .buyBtn {
-      position: absolute;
-      font-size: 30px;
-      margin-top: 150px;
-      margin-left: 180px;
-      cursor: pointer;
-    }
-  
-    .userLog {
-      position: absolute;
-      font-size: 30px;
-      margin-top: 150px;
-      margin-left: 115px;
-      cursor: pointer;
-    }
-  
-    #check:checked ~ .navMenuItems {
-      height: 100vh;
-      z-index: 10;
-      -webkit-transition: 0.1s  ease-in-out;
-    -ms-transition:0.1s  ease-in-out;
-    transition: 0.1s ease-in-out;
-    opacity: 1;
-    width: 320px;
-    }
-  
-    #check:checked ~ .navMenuItems li {
-      display: block;
-      padding: 20px;
-      font-size: 40px;
-      margin: 0;
-      margin-top: 7px;
-    }
-  
-    
-  
-    .contenido,
-    .contenidoMangaLibros {
-      width: 80%;
-      height: 440px;
-    }
-  
-    .contenidoInfo {
-      margin-top: 0px;
-    }
-  
-    .carritoIcono .fa-cart-plus {
-      margin-right: 39px;
-      padding: 24px;
-    }
-  
-    .carritoIconoMangaLibros .fa-cart-plus {
-      margin-right: 0;
-      padding: 0;
-      font-size: 26px;
-      
-    }
-    .carritoIconoMangaLibros {
-  
-      margin-right: 56px;
-        padding: 6px 12px;
-        margin-top: 26px;
-    }
-    
-  
-    .contenidoImagen img {
-      height: 350px;
-      width: 235px;
-      max-height: 350px;
-    }
-  
-    .contenidoInfo h2,
-    .contenidoInfoMangaLibros h2 {
-      font-size: 30px;
-    }
-    span .carritoTexto,
-    span .carritoTextoMangaLibros {
-      margin-left: 5px;
-      font-size: 12px;
-    }
-  
-    .carritoIcono .fa-cart-plus {
-      margin-right: 50px;
-      padding: 6px 12px;
-      margin-top: 5px;
-    }
-  
-    .fa-cart-plus:before {
-      content: "\f217";
-      font-size: 15px;
-  }
-  
-    .contenidoInfo,
-    .contenidoInfoMangaLibros {
-      color: black;
-      margin-top: 0px;
-      margin-left: 0;
-      width: 256px;
-    }
-  
-    .contenidoInfo h2,
-    .contenidoInfoMangaLibros h2 {
-      font-size: 20px;
-      font-weight: 600;
-      text-align: center;
-    }
-  
-    .precio1 {
-      margin-top: 23px;
-      margin-right: 15px;
-      font-size: 28px;
-    }
-  
-    .precio1Index {
-      margin-top: 0px;
-      margin-right: 15px;
-      font-size: 28px;
-    }
-  
-    .seleccion3 {
-      font-size: 30px;
-      padding: 12px 12px;
-    }
-  
-    .tituloVioleta .seleccion2 {
-      font-size: 30px;
-      padding: 12px 12px;
-    }
-  
-    .flechaBanner {
-      font-size: 20px;
-    }
-  
-    .textoBannerTexto {
-      font-size: 18px;
-      margin-top: 8px;
-      margin-left: 5px;
-    }
-  
-    .imagenBanner {
-      
-        width: 100%;
-        height: 120px;
-    
-    }
-  
-    .bannerContainer {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-      gap: 20px;
-    }
-  
-    .bannerRow {
-      margin-left: -30px;
-      width: 130%;
-      height: auto;
-    }
-  
-    .subContenido1 {
-     
-      
-        font-size: 17px;
-        max-width: 100%;
-        text-align: center;
-        padding: 8px;
-        margin-bottom: 0px;
-    
-    
-    }
-    .subContenido2 {
-      display: flex;
-      height: 37px;
-      margin-top: -20px
-      }
-    
-  
-    .emailLargo {
-      font-size: 16px;
-      
-      width: 200px;
-    }
-  
-    .btnNew {
-      font-size: 20px;
-      width: 100px;
-    }
-  
-    .footer {
-      box-shadow: 0 1px 1px 0 rgb(221 210 210 / 12%);
-      box-sizing: border-box;
-      width: 100%;
-      text-align: center;
-      font: bold 16px sans-serif;
-      padding: 20px 20px;
-      background-color: #2d3e50;
-      max-height: fit-content;
-  
-      display: flex;
-      flex-direction: column;
-    }
-  
-    footer .footerLeft {
-      width: auto;
-    }
-  
-    .footerLeft h3 p {
-      font-size: 40px;
-    }
-    .footer h3 {
-      font-size: 50px;
-    }
-  
-    .LogoImagen {
-      width: 100px;
-    }
-  
-    .footer .footerLinks {
-      font-size: 16px;
-    }
-  
-    .footer .footerCompName {
-      color: rgb(121, 121, 121);
-      font-size: 16px;
-    }
-  
-    .footer .footerCenter {
-      width: auto;
-      padding: 20px;
-    }
-  
-    .footer .footerCenter i {
-      
-      margin: 19px 0px;
-    }
-  
-    .footer .footerCenter p {
-      font-size: 15px;
-    }
-  
-    .footer .footerRight {
-      width: auto;
-    }
-  
-    .footer .footerAbout span {
-      font-size: 20px;
-    }
-  
-    .footer .footerAbout {
-      line-height: 40px;
-      color: #92999f;
-      font-size: 23px;
-    }
-  
-    .footer .footerIcons {
-      margin-left: 50px;
-    }
-  
-    .footer .footerIcons a {
-      margin-right: 39px;
-      margin-bottom: 5px;
-      transform: scale(1.5);
-    }
-  
-    .formSelect {
-      font-size: 16px;
-      width: 98%;
-      padding: 0px 10px;
-      height: 50px;
-    }
-  
-   .paginacion {
-    width: 280px;
-   }
-  
-    .selectorContainer {
-      width: 100%;
-    }
-  
-    .paginacion .paginacionLink {
-      font-size: 15px;
-    }
-  
-    .paginacion .divider {
-      font-size: 15px;
-    }
-  
-    .paginacion .crumbActive {
-      font-size: 17px;
-    }
-  
-    .formularioMain {
-      height: 850px;
-    }
-  
-    .contenedor .form {
-      margin-top: 83px;
-    }
-  
-    .contenedor .form {
-      transform: scale(1.1);
-    }
-  
-    .contenedor .form .formLabel {
-      display: block;
-      font-size: 25px;
-    }
-    .contenedor .form .formInput {
-      font-size: 27px;
-    }
-  
-    .contenedor .form .formTextarea {
-      font-size: 27px;
-    }
-    .contenedor .form .btnSumbit {
-      font-size: 30px;
-    } 
-  
-    .subHomeContainer {
-      width: 100%;
-      padding: 20px 20px;
-  }
-  
+
   .form-control-label {
     margin-bottom: 0;
     font-size: 16px;
   }
-  
-  .form-check-label {
-    font-size: 12px;
-    padding-right: 0.25rem!important;
-      padding-left: 0.25rem!important;
-      padding-top: 1rem!important;
-      padding-bottom: 1rem!important;
-  }
-  
+
   .form-check {
     padding-left: 0.5em;
   }
@@ -3388,6 +2748,600 @@ button {
     padding: 8px 11px;
     font-size: 12px !important;
   }
-  
-} 
- 
+  .fs-6 {
+    font-size: 14px;
+  }
+
+  .form-check-label {
+    margin-left: 11px;
+    font-size: 14px;
+    padding: 0 !important;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .searchBarBtn {
+    margin-top: 0px;
+  }
+  input,
+  textarea,
+  button {
+    padding: 8px 15px;
+    border-radius: 0px;
+    margin: 0px 0px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 18px !important;
+    font-weight: 300;
+    border-radius: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .contenedorForm {
+    padding: 12px;
+  }
+
+  .bodycontact {
+    background-image: url(./Imagenes/mangabackground2.jpg);
+    background-size: 110%;
+    background-position: -10px;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    display: grid;
+    grid-template:
+      "descuentoTituloCont"
+      "header"
+      "h21"
+      "formularioMain"
+      "subHome"
+      "footer" / 375px;
+  }
+
+  .gridContainer {
+    display: grid;
+
+    grid-template:
+      "descuentoTituloCont"
+      "header"
+      "h21"
+      "main1"
+      "h22"
+      "main2"
+      "tituloVioleta"
+      "main3"
+      "bannerHome"
+      "subHome"
+      "footer" / 375px;
+  }
+  .selector {
+    padding: 6px 6px;
+  }
+
+  .gridContainerMangaLibros {
+    display: grid;
+    width: fit-content;
+
+    grid-template:
+      "descuentoTitulo"
+      "header"
+      "h21"
+      "selector"
+      "contenidoContenedorMangaLibros"
+      "subHome"
+      "footer" /
+      375px;
+  }
+
+  .navMenuItems li:hover,
+  li:active {
+    background-color: rgba(255, 228, 196, 0.3);
+
+    margin-bottom: 10px;
+    transition: 0.4s;
+  }
+  .precio1Oferta {
+    display: block;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+    font-weight: 700;
+    margin-top: 0px;
+    margin-right: 77px;
+    font-size: 28px;
+  }
+  .discount-label {
+    padding: 5px;
+    position: relative;
+    float: right;
+    margin-top: 2px;
+    margin-right: -3px;
+    width: 60px;
+    transform: scale(0.9);
+
+    -webkit-border-radius: 0 4px 0 4px;
+    -moz-border-radius: 0 4px 0 4px;
+    border-radius: 0 4px 4px 0;
+  }
+
+  .carritoIconoOfertas .fa-cart-plus {
+    float: right;
+
+    margin-top: 0px;
+    margin-right: 45px;
+    background-image: linear-gradient(315deg, red 0%, #db9833 74%);
+    font-size: 1.1em;
+    padding: 8px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+    -ms-transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+
+  .carritoIconoOfertas .fa-cart-plus:hover {
+    background-image: linear-gradient(315deg, red 0%, #db7133 74%);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+    -webkit-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+
+  .carritoIconoOfertas i {
+    font-size: 30px;
+    line-height: 26px;
+  }
+  .seleccion {
+    font-size: 30px;
+    margin-top: 141px;
+    padding: 30px 12px;
+  }
+  .descuentoTituloCont {
+    height: 17px;
+    top: 0;
+    z-index: 10000;
+  }
+  .header {
+    position: fixed;
+    width: 375px;
+    top: 0;
+    z-index: 9999;
+    border-bottom: px solid darksalmon;
+    padding: 12px 0;
+    box-shadow: 0px 2px 15px #000;
+  }
+
+  .descuentoTexto {
+    background: linear-gradient(
+      90deg,
+      rgba(250, 128, 114) 0%,
+      darksalmon 50%,
+      rgba(250, 128, 114) 100%
+    );
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+  }
+
+  .barBtn {
+    display: flex;
+
+    margin-right: 25px;
+    font-size: 50px;
+    margin-top: 55px;
+  }
+
+  #check {
+    display: none;
+  }
+
+  .Logo {
+    display: flex;
+    margin-left: 0px;
+    margin-top: 70px;
+  }
+
+  .navMenu {
+    height: 150px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .navMenuItems {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    display: block;
+    background: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 0;
+    top: 174px;
+    text-align: center;
+
+    opacity: 0.2;
+    transition: 0.5s;
+  }
+
+  .navMenuItems li {
+    display: none;
+    line-height: 38px;
+    margin: 42px 0px;
+    padding: 0;
+    -webkit-transition: 1s ease;
+    -ms-transition: 1s ease;
+    transition: 1s ease;
+  }
+
+  .navMenuItems li a {
+    color: #fff;
+    -webkit-transition: 1s ease;
+    -ms-transition: 1s ease;
+    transition: 1s ease;
+    font-size: 20px;
+  }
+
+  .navMenuItems li i {
+    display: none;
+  }
+
+  .navMenuItems li a:hover {
+    color: darksalmon;
+    transition: 0.3s;
+  }
+
+  .searchBar input {
+    width: 288px;
+  }
+
+  .searchBar {
+    margin-left: 11%;
+    margin-bottom: 70px;
+  }
+
+  .searchBarBtn {
+    top: 0;
+    right: 0;
+  }
+
+  .buyBtn {
+    position: absolute;
+    font-size: 30px;
+    margin-top: 150px;
+    margin-left: 138px;
+    cursor: pointer;
+  }
+
+  .userLog {
+    position: absolute;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 46px;
+    cursor: pointer;
+  }
+
+  #check:checked ~ .navMenuItems {
+    height: 100vh;
+    z-index: 10;
+    -webkit-transition: 0.1s ease-in-out;
+    -ms-transition: 0.1s ease-in-out;
+    transition: 0.1s ease-in-out;
+    opacity: 1;
+    width: 375px;
+  }
+
+  #check:checked ~ .navMenuItems li {
+    display: block;
+    padding: 20px;
+    font-size: 40px;
+    margin: 0;
+    margin-top: 7px;
+  }
+
+  .contenido,
+  .contenidoMangaLibros {
+    width: 80%;
+    height: 440px;
+  }
+
+  .contenidoInfo {
+    margin-top: 0px;
+  }
+
+  .carritoIcono .fa-cart-plus {
+    margin-right: 39px;
+    padding: 24px;
+  }
+
+  .carritoIconoMangaLibros .fa-cart-plus {
+    margin-right: 0;
+    padding: 0;
+    font-size: 26px;
+  }
+  .carritoIconoMangaLibros {
+    margin-right: 94px;
+    padding: 6px 16px;
+    margin-top: 26px;
+  }
+
+  .contenidoImagen img {
+    height: 350px;
+    width: 235px;
+    max-height: 350px;
+  }
+
+  .contenidoInfo h2,
+  .contenidoInfoMangaLibros h2 {
+    font-size: 30px;
+  }
+  span .carritoTexto,
+  span .carritoTextoMangaLibros {
+    margin-left: 5px;
+    font-size: 12px;
+  }
+
+  .carritoIcono .fa-cart-plus {
+    margin-right: 91px;
+    padding: 6px 12px;
+    margin-top: 2px;
+  }
+
+  .fa-cart-plus:before {
+    content: "\f217";
+    font-size: 15px;
+  }
+
+  .contenidoInfo,
+  .contenidoInfoMangaLibros {
+    color: black;
+    margin-top: 0px;
+    margin-left: 0;
+    width: 300px;
+  }
+
+  .contenidoInfo h2,
+  .contenidoInfoMangaLibros h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .precio1 {
+    margin-top: 23px;
+    margin-right: 15px;
+    font-size: 28px;
+  }
+
+  .precio1Index {
+    margin-top: 0px;
+    margin-right: 15px;
+    font-size: 28px;
+  }
+
+  .seleccion3 {
+    font-size: 30px;
+    padding: 12px 12px;
+  }
+
+  .tituloVioleta .seleccion2 {
+    font-size: 30px;
+    padding: 12px 12px;
+  }
+
+  .flechaBanner {
+    font-size: 20px;
+  }
+
+  .textoBannerTexto {
+    font-size: 18px;
+    margin-top: 8px;
+    margin-left: 5px;
+  }
+
+  .imagenBanner {
+    width: 100%;
+    height: 120px;
+  }
+
+  .bannerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .bannerRow {
+    margin-left: -21px;
+    width: 115%;
+    height: auto;
+  }
+
+  .subContenido1 {
+    font-size: 17px;
+    max-width: 100%;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 0px;
+  }
+  .subContenido2 {
+    display: flex;
+    height: 37px;
+    margin-top: -20px;
+  }
+
+  .emailLargo {
+    font-size: 16px;
+
+    width: 200px;
+  }
+
+  .btnNew {
+    font-size: 20px;
+    width: 100px;
+  }
+
+  .footer {
+    box-shadow: 0 1px 1px 0 rgb(221 210 210 / 12%);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    font: bold 16px sans-serif;
+    padding: 20px 20px;
+    background-color: #2d3e50;
+    max-height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer .footerLeft {
+    width: auto;
+  }
+
+  .footerLeft h3 p {
+    font-size: 40px;
+  }
+  .footer h3 {
+    font-size: 50px;
+  }
+
+  .LogoImagen {
+    width: 100px;
+  }
+
+  .footer .footerLinks {
+    font-size: 16px;
+  }
+
+  .footer .footerCompName {
+    color: rgb(121, 121, 121);
+    font-size: 16px;
+  }
+
+  .footer .footerCenter {
+    width: auto;
+    padding: 15px;
+  }
+
+  .footer .footerCenter i {
+    margin: 19px 4px;
+  }
+
+  .footer .footerCenter p {
+    font-size: 15px;
+  }
+
+  .footer .footerRight {
+    width: auto;
+  }
+
+  .footer .footerAbout span {
+    font-size: 20px;
+  }
+
+  .footer .footerAbout {
+    line-height: 40px;
+    color: #92999f;
+    font-size: 16px;
+  }
+
+  .footer .footerIcons {
+    margin-left: 50px;
+  }
+
+  .footer .footerIcons a {
+    margin-right: 39px;
+    margin-bottom: 5px;
+    transform: scale(1.5);
+  }
+
+  .formSelect {
+    font-size: 16px;
+    width: 98%;
+    padding: 0px 10px;
+    height: 50px;
+  }
+
+  .paginacion {
+    width: 280px;
+  }
+
+  .selectorContainer {
+    width: 100%;
+  }
+
+  .paginacion .paginacionLink {
+    font-size: 15px;
+  }
+
+  .paginacion .divider {
+    font-size: 15px;
+  }
+
+  .paginacion .crumbActive {
+    font-size: 17px;
+  }
+
+  .formularioMain {
+    height: 850px;
+  }
+
+  .contenedor .form {
+    margin-top: 83px;
+  }
+
+  .contenedor .form {
+    transform: scale(1.1);
+  }
+
+  .contenedor .form .formLabel {
+    display: block;
+    font-size: 25px;
+  }
+  .contenedor .form .formInput {
+    font-size: 27px;
+  }
+
+  .contenedor .form .formTextarea {
+    font-size: 27px;
+  }
+  .contenedor .form .btnSumbit {
+    font-size: 30px;
+  }
+
+  .subHomeContainer {
+    width: 100%;
+    padding: 20px 20px;
+  }
+
+  .form-control-label {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+
+  .form-check-label {
+    font-size: 12px;
+    padding-right: 0.25rem !important;
+    padding-left: 0.25rem !important;
+    padding-top: 0rem !important;
+    padding-bottom: 1rem !important;
+  }
+
+  .form-check {
+    padding-left: 0.5em;
+  }
+  .formularioMain input {
+    padding: 8px 11px;
+    font-size: 12px !important;
+  }
+}

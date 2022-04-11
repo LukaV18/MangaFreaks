@@ -29,19 +29,19 @@
         <div class="navContainer">
             <nav class="navMenu">
                 <nav class="navMenu">
-                    <div class="Logo">
+                    <div class="Logo" data-aos="fade-right" data-aos-once="true" data-aos-delay="300">
                         <a href="./index.html"><img class="LogoImagen" src="./Imagenes/LogoPng.png" width="150">
 
                         </a>
                     </div>
-
                     <input type="checkbox" id="check">
                     <label for="check" class="barBtn">
                         <i class="fa fa-bars"></i>
 
                     </label>
 
-                    <ul class="navMenuItems">
+
+                    <ul class="navMenuItems" data-aos="fade-left" data-aos-once="true" data-aos-delay="20">
 
                         <li><i class="fa-solid fa-fire"></i><a href="./index.html">Popular</a></li>
                         <li><i class="fa-solid fa-book-skull"></i><a href="./mangas.html">Mangas</a></li>
@@ -52,18 +52,18 @@
 
                     </ul>
                     </span>
-                    <div class="searchBar">
+                    <div class="searchBar" data-aos="zoom-in" data-aos-once="true" data-aos-delay="200">
                         <input type="text" placeholder="¿Qué estás buscando?" required>
                         <div class="searchBarBtn">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </div>
                     </div>
-
-
-                    <span class="buyBtn">
+                   
+                    <span class="buyBtn"  data-aos="zoom-in" data-aos-once="true" data-aos-delay="200">
                         <i class="fa-solid fa-cart-shopping"></i>
-                    </span>
-                    <span class="userLog">
+                    </label>
+                    
+                    <span class="userLog"  onclick="myFunction()"  data-aos="zoom-in" data-aos-once="true" data-aos-delay="200">
                         <i class="fa-solid fa-user-ninja"></i>
                 </nav>
         </div>
@@ -328,7 +328,6 @@
     </section>
 
 
-
     <footer class="footer">
 
         <div class="footerLeft">
@@ -359,7 +358,7 @@
 
             <div>
                 <i class="fa fa-map-marker"></i>
-                <p><span>Otamendi 90</span> Capital Federal, Argentina</p>
+                <p><span>Otamendi 90</span> Capital Federal</p>
             </div>
 
             <div>
@@ -395,7 +394,17 @@
 
 
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    </script>
+    <script>
+        AOS.init({
+            disable: 'mobile'
+        });
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-</script>
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 </body>
