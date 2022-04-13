@@ -1257,906 +1257,6 @@ footer .footerLeft {
   border-color: #33bff2 transparent transparent transparent;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1919px) {
-  .subHomeContainer {
-    width: 100%;
-    padding: 16px 60px;
-  }
-  .gridContainer {
-    display: grid;
-
-    grid-template:
-      "descuentoTitulo"
-      "header"
-      "h21"
-      "main1"
-      "h22"
-      "main2"
-      "tituloVioleta"
-      "main3"
-      "bannerHome"
-      "subHome"
-      "footer" /
-      1024px;
-  }
-  .bodycontact {
-    background-image: url(./Imagenes/mangabackground2.jpg);
-    background-size: 110%;
-    background-position: -40px;
-    background-attachment: fixed;
-    background-repeat: repeat;
-    display: grid;
-    grid-template:
-      "descuentoTituloCont"
-      "header"
-      "h21"
-      "formularioMain"
-      "subHome"
-      "footer" / 1024px;
-  }
-
-  .Logo {
-    margin-left: 0px;
-  }
-
-  .gridContainerMangaLibros {
-    display: grid;
-    grid-template:
-      "descuentoTitulo"
-      "header"
-      "h21"
-      "selector"
-      "contenidoContenedorMangaLibros"
-      "subHome"
-      "footer" /
-      1024px;
-  }
-  .precio1Oferta {
-    display: block;
-    font-weight: 400;
-    font-size: 22px;
-    color: #000;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    margin-top: 23px;
-    margin-right: 83px;
-    font-size: 25px;
-
-    font-weight: 700;
-  }
-
-  .discount-label {
-    padding: 5px;
-    position: relative;
-    float: right;
-    margin-top: 20px;
-    margin-left: 0;
-    width: 60px;
-    -webkit-border-radius: 0 4px 0 4px;
-    -moz-border-radius: 0 4px 0 4px;
-    border-radius: 0 4px 4px 0;
-  }
-
-  .carritoIconoOfertas .fa-cart-plus {
-    float: right;
-    padding: 20px;
-    margin-top: 17px;
-    margin-right: 12px;
-    background-image: linear-gradient(315deg, red 0%, #db9833 74%);
-    font-size: 1.1em;
-    padding: 10px;
-    border-radius: 20px;
-    text-transform: uppercase;
-    font-weight: 600;
-    cursor: pointer;
-    color: #fff;
-    -ms-transition: 0.3s ease-in-out;
-    -webkit-transition: 0.3s ease-in-out;
-    transition: 0.3s ease-in-out;
-  }
-
-  .carritoIconoOfertas .fa-cart-plus:hover {
-    background-image: linear-gradient(315deg, red 0%, #db7133 74%);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-
-    -webkit-transition: 0.3s ease-in-out;
-    -ms-transition: 0.3s ease-in-out;
-    transition: 0.3s ease-in-out;
-  }
-
-  .carritoIconoOfertas i {
-    font-size: 30px;
-    line-height: 26px;
-  }
-  .seleccion {
-    font-family: sans-serif;
-    text-align: center;
-    background: linear-gradient(
-      90deg,
-      rgba(250, 128, 114) 0%,
-      rgba(219, 152, 51) 50%,
-      rgba(250, 128, 114) 100%
-    );
-    width: 100%;
-    text-transform: uppercase;
-    font-size: 24px;
-    color: rgb(46, 35, 35);
-    padding: 18px 12px;
-    font-weight: 600;
-  }
-
-  .seleccion3 {
-    font-family: sans-serif;
-    text-align: center;
-    width: 100%;
-    text-transform: uppercase;
-    font-size: 24px;
-    color: rgb(46, 35, 35);
-    padding: 23px 12px;
-    font-weight: 600;
-  }
-
-  h3 .seleccion2 {
-    font-family: sans-serif;
-    text-align: center;
-    width: 100%;
-    text-transform: uppercase;
-    font-size: 24px;
-    color: rgb(46, 35, 35);
-    padding: 23px 12px;
-    font-weight: 600;
-  }
-
-  .descuentoTexto {
-    font-family: sans-serif;
-
-    font-weight: 500;
-
-    font-size: 20px;
-  }
-
-  .navMenu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 150px;
-    background-color: rgb(255, 228, 196);
-    width: 1024px;
-  }
-  .navMenuItems {
-    display: flex;
-    height: 40px;
-    text-decoration: none;
-    color: dimgrey;
-    font-weight: bold;
-    list-style: none;
-    font-weight: bold;
-    margin-left: 11px;
-    margin-top: 120px;
-    width: 800px;
-    margin-right: 54px;
-  }
-
-  .navMenuItems li {
-    padding: 0px 0px;
-    margin: 0 9px;
-    border-radius: 3px;
-    font-size: 20px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    display: block;
-    text-transform: uppercase;
-  }
-
-  .navMenuItems li i {
-    margin: 0px 8px;
-    border-radius: 0px;
-    font-size: 22px;
-  }
-  .navMenuItems li a {
-    padding: 0px 0px;
-    margin: 0px 0px;
-  }
-  .btnMenu {
-    margin-right: 30px;
-    font-size: 25px;
-    cursor: pointer;
-    display: none;
-  }
-  .buyBtn {
-    margin-bottom: 60px;
-    margin-left: 900px;
-    cursor: pointer;
-    font-size: 25px;
-    position: absolute;
-  }
-
-  .userLog {
-    margin-bottom: 60px;
-    margin-right: 9px;
-    cursor: pointer;
-    font-size: 25px;
-  }
-
-  .userLog i {
-    color: black;
-  }
-
-  .searchBar {
-    margin-bottom: 60px;
-    margin-left: 30%;
-    position: absolute;
-    padding: 5px;
-  }
-
-  .searchBar input {
-    font-size: 20px;
-  }
-
-  .carritoIcono .fa-cart-plus {
-    float: right;
-    padding: 20px;
-    margin-top: 17px;
-    margin-right: 70px;
-    background-image: linear-gradient(315deg, red 0%, #db9833 74%);
-    font-size: 1.1em;
-    padding: 10px;
-    border-radius: 20px;
-    text-transform: uppercase;
-    font-weight: 600;
-    cursor: pointer;
-    color: #fff;
-    -ms-transition: 0.3s ease-in-out;
-    -webkit-transition: 0.3s ease-in-out;
-    transition: 0.3s ease-in-out;
-  }
-
-  .carritoIcono .fa-cart-plus:hover {
-    background-image: linear-gradient(315deg, red 0%, #db7133 74%);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-
-    -webkit-transition: 0.3s ease-in-out;
-    -ms-transition: 0.3s ease-in-out;
-    transition: 0.3s ease-in-out;
-  }
-
-  span .carritoTexto {
-    margin-left: 5px;
-    font-size: 16px;
-    font-weight: 600;
-    font-family: sans-serif;
-    color: #fff;
-  }
-
-  .carritoIcono i {
-    font-size: 30px;
-    line-height: 26px;
-  }
-
-  .precio1 {
-    display: block;
-    font-weight: 400;
-    font-size: 22px;
-    color: #000;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    margin-top: 52px;
-    margin-right: 20px;
-    font-size: 25px;
-
-    font-weight: 700;
-  }
-
-  .precio1Index {
-    display: block;
-    font-weight: 400;
-    font-size: 22px;
-    color: #000;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    margin-top: 52px;
-    margin-right: 20px;
-    font-size: 25px;
-
-    font-weight: 700;
-  }
-
-  .bannerContainer {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: end;
-
-    background: linear-gradient(
-      180deg,
-      rgba(250, 128, 114) 0%,
-      rgb(255, 228, 196) 50%,
-      rgb(255, 228, 196) 100%
-    );
-    padding: 50px 50px;
-  }
-
-  .bannerContainer {
-    display: flex;
-    flex-wrap: nowrap;
-
-    justify-content: center;
-    background: linear-gradient(
-      180deg,
-      rgba(250, 128, 114) 0%,
-      rgb(255, 228, 196) 50%,
-      rgb(255, 228, 196) 100%
-    );
-    padding: 50px 0px;
-  }
-
-  .bannerRow {
-    padding: 0 15;
-    margin-right: 0px;
-    border-radius: 10px;
-    box-shadow: 0 0 7px #111;
-    background: linear-gradient(
-      90deg,
-      rgba(250, 128, 114) 0%,
-      rgb(191, 69, 69) 70%,
-      rgba(250, 128, 114) 100%
-    );
-    width: 310px;
-    margin: 12px;
-    height: 200px;
-    cursor: pointer;
-    -webkit-transition: 0.3s ease-in-out;
-    transition: 0.3s ease-in-out;
-  }
-
-  .textoBanner {
-    padding: 0px;
-    display: flex;
-    justify-content: space-between;
-    height: 40px;
-  }
-
-  .imagenBanner {
-    min-height: 158px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }
-
-  .textoBannerTexto {
-    font-family: "Montserrat", Arial, sans-serif;
-    font-weight: 600 !important;
-    text-align: left;
-    font-size: 18px;
-
-    line-height: 19px;
-    margin-left: 15px;
-    margin-top: 7px;
-  }
-
-  .flechaBannerCont {
-    margin-bottom: 100px;
-    margin-right: 10px;
-  }
-
-  .flechaBanner {
-    font-size: 20px;
-  }
-
-  .emailLargo {
-    font-size: 22px;
-    font-weight: 600 !important;
-  }
-
-  .formSelect {
-    border: 1px solid rgb(60, 60, 60, 0.15);
-    font-family: "Roboto", Arial, sans-serif;
-    font-size: 20px;
-    width: 50%;
-    padding: 12px 12px;
-    display: flex;
-    margin-left: 40px;
-    cursor: pointer;
-  }
-
-  .selector {
-    position: relative;
-    padding: 13px 15px;
-    background-color: rgb(255, 228, 196);
-  }
-
-  .subContenido1 {
-    font-size: 16px;
-    max-width: 30%;
-  }
-  .subContenido2 {
-    display: flex;
-    height: 50px;
-    margin-top: 40px;
-    margin-left: 16px;
-  }
-
-  .carritoIconoMangaLibros {
-    margin-right: 68px;
-    padding: 10px 16px;
-  }
-
-  span.carritoTextoMangaLibros {
-    font-size: 14px;
-    font-weight: 600;
-    font-family: sans-serif;
-    color: #fff;
-  }
-  .contenido {
-    width: 300px;
-  }
-
-  .contenidoInfo {
-    color: black;
-    margin-top: 0px;
-    margin-left: 0;
-    width: 300px;
-  }
-
-  .contenedor .form .btnSumbit {
-    font-size: 24px;
-  }
-
-  .contenedor .form .formTextarea,
-  .formInput::placeholder {
-    font-size: 16px;
-  }
-  .contenidoInfo h2,
-  .contenidoInfoMangaLibros h2 {
-    font-size: 24px;
-    font-weight: 600;
-    text-align: center;
-  }
-
-  .contenidoInfoMangaLibros {
-    color: black;
-    margin-top: 0px;
-    margin-left: 0;
-    width: 280px;
-  }
-
-  .precio1 {
-    display: block;
-    font-weight: 400;
-    font-size: 22px;
-    color: #000;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    margin-top: 32px;
-    margin-right: 20px;
-    font-size: 25px;
-    font-weight: 700;
-  }
-
-  .precio1Index {
-    display: block;
-    font-weight: 400;
-    font-size: 22px;
-    color: #000;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    margin-top: 20px;
-    margin-right: 20px;
-    font-size: 25px;
-    font-weight: 700;
-  }
-  .footer {
-    padding: 38px 24px;
-  }
-  .footer .footerLinks {
-    color: #ffffff;
-    margin: 20px 0 12px;
-    padding: 0;
-    font-size: 17px;
-  }
-  .footer .footerCompName {
-    font-size: 17px;
-  }
-  .footer .footerCenter {
-    width: 45%;
-  }
-
-  .footer .footerCenter p {
-    font-size: 18px;
-  }
-
-  .footer .footerRight {
-    width: 15%;
-  }
-  .footer .footerAbout {
-    font-size: 17px;
-  }
-
-  .footer .footerAbout span {
-    font-size: 18px;
-  }
-
-  .footer .footerIcons {
-    text-align: center;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .footer .footerCenter i {
-    margin: 10px 2px;
-  }
-  .bodycontact {
-    background-image: url(./Imagenes/mangabackground2.jpg);
-    background-size: 120%;
-    background-position: -40px;
-    background-attachment: fixed;
-    background-repeat: repeat;
-    display: grid;
-    grid-template:
-      "descuentoTitulo"
-      "header"
-      "h21"
-      "formularioMain"
-      "subHome"
-      "footer";
-  }
-
-  .gridContainerOfertas {
-    display: grid;
-    grid-template:
-      "descuentoTitulo"
-      "header"
-      "h21"
-      "contenidoContenedor"
-      "subHome"
-      "footer" / 768px;
-  }
-  .gridContainerMangaLibros {
-    display: grid;
-    grid-template:
-      "descuentoTitulo"
-      "header"
-      "h21"
-      "selector"
-      "contenidoContenedorMangaLibros"
-      "subHome"
-      "footer" / 768px;
-  }
-
-  .searchBar {
-    margin-left: 0px;
-  }
-
-  .navMenu {
-    width: 768px;
-  }
-
-  .gridContainer {
-    display: grid;
-    grid-template:
-      "descuentoTitulo"
-      "header"
-      "h21"
-      "main1"
-      "h22"
-      "main2"
-      "tituloVioleta"
-      "main3"
-      "bannerHome"
-      "subHome"
-      "footer" /
-      768px;
-  }
-  .precio1Oferta {
-    display: block;
-    font-weight: 400;
-    font-size: 22px;
-    color: #000;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    margin-top: 22px;
-    margin-right: 88px;
-    font-size: 25px;
-
-    font-weight: 700;
-  }
-
-  .discount-label {
-    padding: 5px;
-    position: relative;
-    float: right;
-    margin-top: 20px;
-    margin-left: 0;
-    width: 60px;
-    -webkit-border-radius: 0 4px 0 4px;
-    -moz-border-radius: 0 4px 0 4px;
-    border-radius: 0 4px 4px 0;
-  }
-
-  .carritoIconoOfertas .fa-cart-plus {
-    float: right;
-    padding: 20px;
-    margin-top: 17px;
-    margin-right: 18px;
-    background-image: linear-gradient(315deg, red 0%, #db9833 74%);
-    font-size: 1.1em;
-    padding: 10px;
-    border-radius: 20px;
-    text-transform: uppercase;
-    font-weight: 600;
-    cursor: pointer;
-    color: #fff;
-    -ms-transition: 0.3s ease-in-out;
-    -webkit-transition: 0.3s ease-in-out;
-    transition: 0.3s ease-in-out;
-  }
-
-  .carritoIconoOfertas .fa-cart-plus:hover {
-    background-image: linear-gradient(315deg, red 0%, #db7133 74%);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-
-    -webkit-transition: 0.3s ease-in-out;
-    -ms-transition: 0.3s ease-in-out;
-    transition: 0.3s ease-in-out;
-  }
-
-  .carritoIconoOfertas i {
-    font-size: 30px;
-    line-height: 26px;
-  }
-
-  .seleccion {
-    font-size: 21px;
-  }
-  .carritoIconoMangaLibros {
-    margin-right: 38px;
-  }
-  .Logo {
-    display: flex;
-    margin-left: 0px;
-  }
-
-  .buyBtn {
-    margin-bottom: 60px;
-    margin-left: 665px;
-    cursor: pointer;
-    font-size: 24px;
-    position: absolute;
-  }
-
-  .userLog {
-    margin-bottom: 60px;
-    margin-right: 6px;
-    cursor: pointer;
-    font-size: 24px;
-  }
-
-  .navMenuItems li {
-    padding: 0px 0px;
-    margin: 0 7px;
-  }
-
-  .navMenuItems {
-    width: max-content;
-    margin-left: 0px;
-    margin-right: 86px;
-  }
-
-  input,
-  textarea,
-  button {
-    font-size: 15px !important;
-  }
-
-  .navMenuItems li i {
-    margin: 0 0px;
-    border-radius: 3px;
-    font-size: 22px;
-    margin-left: 0px;
-    margin-right: 9px;
-  }
-
-  .navMenuItems li a {
-    padding: 0px 0px;
-    font-size: 16px;
-  }
-
-  .paginacion .crumbActive {
-    font-size: 20px;
-  }
-  .contenido {
-    width: 40%;
-  }
-
-  .carritoIcono .fa-cart-plus {
-    float: right;
-    padding: 9px;
-    margin-top: 14px;
-    margin-right: 73px;
-  }
-
-  .precio1 {
-    font-size: 26px;
-    font-weight: 700;
-    margin-top: 32px;
-  }
-
-  .precio1Index {
-    font-size: 26px;
-    font-weight: 700;
-    margin-top: 16px;
-    margin-right: 20px;
-  }
-
-  .contenidoInfo {
-    color: black;
-    margin-top: 0px;
-    margin-left: 0;
-    width: 308px;
-  }
-
-  .contenidoInfo h2 {
-    font-size: 21px;
-    font-weight: 600;
-    text-align: center;
-  }
-
-  .imagenBanner {
-    width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    min-height: 150px;
-    object-fit: cover;
-  }
-
-  .contenidoMangaLibros {
-    height: 410px;
-    width: 270px;
-    margin: 50px 40px;
-  }
-
-  .bannerContainer {
-    padding: 50px 5px;
-    justify-content: space-evenly;
-  }
-
-  .bannerRow {
-    width: 100%;
-    margin: 0px 10px;
-  }
-
-  .emailLargo {
-    font-size: 24px;
-  }
-
-  .btnNew {
-    font-size: 24px;
-  }
-
-  .paginacion .paginacionLink {
-    font-size: 16px;
-  }
-
-  .formSelect {
-    font-size: 20px;
-  }
-
-  span.carritoTextoMangaLibros {
-    font-size: 16px;
-  }
-
-  .formTextarea {
-    font-size: 18px;
-  }
-
-  .formInput::placeholder {
-    font-size: 16px;
-  }
-
-  .subHomeContainer {
-    width: 100%;
-    padding: 2px 60px;
-  }
-  .subHomeContainerCentro {
-    padding: 18px 50px;
-  }
-  .subContenido1 {
-    font-size: 17px;
-
-    max-width: 60%;
-    margin-left: 50px;
-  }
-
-  .subContenido2 {
-    margin-top: 0px;
-  }
-
-  .contenidoInfoMangaLibros h2 {
-    font-size: 24px;
-    font-weight: 600;
-    text-align: center;
-  }
-
-  .contenidoInfoMangaLibros {
-    color: black;
-    margin-top: 0px;
-    margin-left: 0;
-    width: 280px;
-  }
-
-  .contenedor .form .btnSumbit {
-    font-size: 22px;
-  }
-
-  .selectorContainer {
-    width: 66%;
-  }
-  .footer {
-    padding: 28px 5px;
-  }
-  .footerLeft {
-    width: 40%;
-  }
-
-  .footer h3 {
-    font-size: 27px;
-  }
-
-  .LogoImagen {
-    width: 80px;
-  }
-
-  .footer .footerLinks {
-    font-size: 13px;
-  }
-
-  .footer .footerCompName {
-    color: rgb(121, 121, 121);
-    font-size: 16px;
-  }
-
-  .footer .footerCenter {
-    width: 45%;
-    padding: 0px;
-    margin-top: 48px;
-  }
-
-  .footer .footerCenter p {
-    font-size: 12px;
-  }
-
-  .footer .footerRight {
-    width: 30%;
-    margin-top: 36px;
-  }
-
-  .footer .footerAbout span {
-    font-size: 17px;
-  }
-
-  .footer .footerAbout {
-    line-height: 25px;
-    color: #92999f;
-    font-size: 16px;
-  }
-
-  .footer .footerIcons {
-    margin-left: 20px;
-    margin-top: 12px;
-  }
-
-  .footer .footerIcons a {
-    margin-right: 11px;
-    margin-bottom: 0px;
-  }
-
-  .contenidoInfo h2,
-  .contenidoInfoMangaLibros h2 {
-    font-size: 17px;
-  }
-}
-
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .bannerRow:hover {
     transform: scale(1.06);
@@ -2759,7 +1859,7 @@ footer .footerLeft {
   }
 }
 
-@media screen and (min-width: 375px) and (max-width: 424px) {
+@media screen and (min-width: 375px) and (max-width: 375px) {
   .searchBarBtn {
     margin-top: 0px;
   }
@@ -2814,7 +1914,7 @@ footer .footerLeft {
       "main3"
       "bannerHome"
       "subHome"
-      "footer" / 375px;
+      "footer" / auto;
   }
   .selector {
     padding: 6px 6px;
@@ -2913,7 +2013,7 @@ footer .footerLeft {
   }
   .header {
     position: fixed;
-    width: 375px;
+    width: -webkit-fill-available;
     top: 0;
     z-index: 9999;
     border-bottom: px solid darksalmon;
@@ -2954,7 +2054,7 @@ footer .footerLeft {
   .navMenu {
     height: 150px;
     display: flex;
-    width: 100%;
+    width: -webkit-fill-available;
     justify-content: space-between;
   }
 
@@ -3346,6 +2446,603 @@ footer .footerLeft {
   }
 }
 
+@media screen and (min-width: 376px) and (max-width: 424px) {
+  .searchBarBtn {
+    margin-top: 0px;
+  }
+  input,
+  textarea,
+  button {
+    padding: 8px 15px;
+    border-radius: 0px;
+    margin: 0px 0px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 18px !important;
+    font-weight: 300;
+    border-radius: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .contenedorForm {
+    padding: 12px;
+  }
+
+  .bodycontact {
+    background-image: url(./Imagenes/mangabackground2.jpg);
+    background-size: 110%;
+    background-position: -10px;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    display: grid;
+    grid-template:
+      "descuentoTituloCont"
+      "header"
+      "h21"
+      "formularioMain"
+      "subHome"
+      "footer" / auto;
+  }
+
+  .gridContainer {
+    display: grid;
+
+    grid-template:
+      "descuentoTituloCont"
+      "header"
+      "h21"
+      "main1"
+      "h22"
+      "main2"
+      "tituloVioleta"
+      "main3"
+      "bannerHome"
+      "subHome"
+      "footer" / auto;
+  }
+  .selector {
+    padding: 6px 6px;
+  }
+
+  .gridContainerMangaLibros {
+    display: grid;
+    width: fit-content;
+
+    grid-template:
+      "descuentoTitulo"
+      "header"
+      "h21"
+      "selector"
+      "contenidoContenedorMangaLibros"
+      "subHome"
+      "footer" /
+      auto;
+  }
+
+  .navMenuItems li:hover,
+  li:active {
+    background-color: rgba(255, 228, 196, 0.3);
+
+    margin-bottom: 10px;
+    transition: 0.4s;
+  }
+  .precio1Oferta {
+    display: block;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+    font-weight: 700;
+    margin-top: 0px;
+    margin-right: 77px;
+    font-size: 28px;
+  }
+  .discount-label {
+    padding: 5px;
+    position: relative;
+    float: right;
+    margin-top: 2px;
+    margin-right: -3px;
+    width: 60px;
+    transform: scale(0.9);
+
+    -webkit-border-radius: 0 4px 0 4px;
+    -moz-border-radius: 0 4px 0 4px;
+    border-radius: 0 4px 4px 0;
+  }
+
+  .carritoIconoOfertas .fa-cart-plus {
+    float: left;
+    margin-top: 0px;
+    margin-left: 17px;
+    background-image: linear-gradient(315deg, red 0%, #db9833 74%);
+    font-size: 1.1em;
+    padding: 8px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+    -ms-transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+  .carritoIconoOfertas .fa-cart-plus:hover {
+    background-image: linear-gradient(315deg, red 0%, #db7133 74%);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+    -webkit-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+
+  .carritoIconoOfertas i {
+    font-size: 30px;
+    line-height: 26px;
+  }
+  .seleccion {
+    font-size: 30px;
+    margin-top: 141px;
+    padding: 30px 12px;
+  }
+  .descuentoTituloCont {
+    height: 17px;
+    top: 0;
+    z-index: 10000;
+  }
+  .header {
+    position: fixed;
+    width: -webkit-fill-available;
+    top: 0;
+    z-index: 9999;
+    border-bottom: px solid darksalmon;
+    padding: 12px 0;
+    box-shadow: 0px 2px 15px #000;
+  }
+
+  .descuentoTexto {
+    background: linear-gradient(
+      90deg,
+      rgba(250, 128, 114) 0%,
+      darksalmon 50%,
+      rgba(250, 128, 114) 100%
+    );
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+  }
+
+  .barBtn {
+    display: flex;
+
+    margin-right: 25px;
+    font-size: 50px;
+    margin-top: 55px;
+  }
+
+  #check {
+    display: none;
+  }
+
+  .Logo {
+    display: flex;
+    margin-left: 0px;
+    margin-top: 70px;
+  }
+
+  .navMenu {
+    height: 150px;
+    display: flex;
+    width: -webkit-fill-available;
+    justify-content: space-between;
+  }
+
+  .navMenuItems {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    display: block;
+    background: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 0;
+    top: 174px;
+    text-align: center;
+
+    opacity: 0.2;
+    transition: 0.5s;
+  }
+
+  .navMenuItems li {
+    display: none;
+    line-height: 38px;
+    margin: 42px 0px;
+    padding: 0;
+    -webkit-transition: 1s ease;
+    -ms-transition: 1s ease;
+    transition: 1s ease;
+  }
+
+  .navMenuItems li a {
+    color: #fff;
+    -webkit-transition: 1s ease;
+    -ms-transition: 1s ease;
+    transition: 1s ease;
+    font-size: 20px;
+  }
+
+  .navMenuItems li i {
+    display: none;
+  }
+
+  .navMenuItems li a:hover {
+    color: darksalmon;
+    transition: 0.3s;
+  }
+
+  .searchBar input {
+    width: 288px;
+  }
+
+  .searchBar {
+    margin: 0px 16%;
+    margin-bottom: 70px;
+    display: flex;
+  }
+
+  .searchBarBtn {
+    top: 0;
+    right: 0;
+  }
+
+  .buyBtn {
+    display: flex;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 162px;
+    cursor: pointer;
+  }
+
+  .userLog {
+    position: absolute;
+    font-size: 30px;
+    margin-top: -10px;
+    margin-left: 70px;
+    cursor: pointer;
+  }
+
+  #check:checked ~ .navMenuItems {
+    height: 100vh;
+    z-index: 10;
+    -webkit-transition: 0.1s ease-in-out;
+    -ms-transition: 0.1s ease-in-out;
+    transition: 0.1s ease-in-out;
+    opacity: 1;
+    width: -webkit-fill-available;
+  }
+
+  #check:checked ~ .navMenuItems li {
+    display: block;
+    padding: 20px;
+    font-size: 40px;
+    margin: 0;
+    margin-top: 7px;
+  }
+
+  .contenido,
+  .contenidoMangaLibros {
+    width: 80%;
+    height: 440px;
+  }
+
+  .contenidoInfo {
+    margin-top: 0px;
+  }
+
+  .carritoIcono .fa-cart-plus {
+    margin-right: 39px;
+    padding: 24px;
+  }
+
+  .carritoIconoMangaLibros .fa-cart-plus {
+    margin-right: 0;
+    padding: 0;
+    font-size: 26px;
+  }
+  .carritoIconoMangaLibros {
+    margin-right: 0;
+    padding: 6px 16px;
+    margin-top: 26px;
+
+    /* display: flex; */
+    flex-direction: row;
+    /* margin: 2px; */
+    float: left;
+    margin-left: 17px;
+  }
+
+  .contenidoImagen img {
+    height: 350px;
+    width: 235px;
+    max-height: 350px;
+  }
+
+  .contenidoInfo h2,
+  .contenidoInfoMangaLibros h2 {
+    font-size: 30px;
+  }
+  span .carritoTexto,
+  span .carritoTextoMangaLibros {
+    margin-left: 12px;
+    font-size: 12px;
+  }
+
+  .carritoIcono .fa-cart-plus {
+    margin-left: 12px;
+    padding: 6px 12px;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row; /* margin: 2px; */
+    float: left;
+  }
+
+  .fa-cart-plus:before {
+    content: "\f217";
+    font-size: 15px;
+  }
+
+  .contenidoInfo,
+  .contenidoInfoMangaLibros {
+    color: black;
+    margin-top: 0px;
+    margin-left: 0;
+    width: -webkit-fill-available;
+  }
+
+  .contenidoInfo h2,
+  .contenidoInfoMangaLibros h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .precio1 {
+    margin-top: 23px;
+    margin-right: 15px;
+    font-size: 28px;
+  }
+
+  .precio1Index {
+    margin-top: 0px;
+    margin-right: 15px;
+    font-size: 28px;
+    display: flex;
+  }
+
+  .seleccion3 {
+    font-size: 30px;
+    padding: 12px 12px;
+  }
+
+  .tituloVioleta .seleccion2 {
+    font-size: 30px;
+    padding: 12px 12px;
+  }
+
+  .flechaBanner {
+    font-size: 20px;
+  }
+
+  .textoBannerTexto {
+    font-size: 18px;
+    margin-top: 8px;
+    margin-left: 5px;
+  }
+
+  .imagenBanner {
+    width: 100%;
+    height: 120px;
+  }
+
+  .bannerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .bannerRow {
+    margin-left: -21px;
+    width: 115%;
+    height: auto;
+  }
+
+  .subContenido1 {
+    font-size: 17px;
+    max-width: 100%;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 0px;
+  }
+  .subContenido2 {
+    display: flex;
+    height: 37px;
+    margin-top: -20px;
+  }
+
+  .emailLargo {
+    font-size: 16px;
+
+    width: 200px;
+  }
+
+  .btnNew {
+    font-size: 20px;
+    width: 100px;
+  }
+
+  .footer {
+    box-shadow: 0 1px 1px 0 rgb(221 210 210 / 12%);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    font: bold 16px sans-serif;
+    padding: 20px 20px;
+    background-color: #2d3e50;
+    max-height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer .footerLeft {
+    width: auto;
+  }
+
+  .footerLeft h3 p {
+    font-size: 40px;
+  }
+  .footer h3 {
+    font-size: 50px;
+  }
+
+  .LogoImagen {
+    width: 100px;
+  }
+
+  .footer .footerLinks {
+    font-size: 16px;
+  }
+
+  .footer .footerCompName {
+    color: rgb(121, 121, 121);
+    font-size: 16px;
+  }
+
+  .footer .footerCenter {
+    width: auto;
+    padding: 15px;
+  }
+
+  .footer .footerCenter i {
+    margin: 19px 4px;
+  }
+
+  .footer .footerCenter p {
+    font-size: 15px;
+  }
+
+  .footer .footerRight {
+    width: auto;
+  }
+
+  .footer .footerAbout span {
+    font-size: 20px;
+  }
+
+  .footer .footerAbout {
+    line-height: 40px;
+    color: #92999f;
+    font-size: 16px;
+  }
+
+  .footer .footerIcons {
+    margin-left: 50px;
+  }
+
+  .footer .footerIcons a {
+    margin-right: 39px;
+    margin-bottom: 5px;
+    transform: scale(1.5);
+  }
+
+  .formSelect {
+    font-size: 16px;
+    width: 98%;
+    padding: 0px 10px;
+    height: 50px;
+  }
+
+  .paginacion {
+    width: 280px;
+  }
+
+  .selectorContainer {
+    width: 100%;
+  }
+
+  .paginacion .paginacionLink {
+    font-size: 15px;
+  }
+
+  .paginacion .divider {
+    font-size: 15px;
+  }
+
+  .paginacion .crumbActive {
+    font-size: 17px;
+  }
+
+  .formularioMain {
+    height: 850px;
+  }
+
+  .contenedor .form {
+    margin-top: 83px;
+  }
+
+  .contenedor .form {
+    transform: scale(1.1);
+  }
+
+  .contenedor .form .formLabel {
+    display: block;
+    font-size: 25px;
+  }
+  .contenedor .form .formInput {
+    font-size: 27px;
+  }
+
+  .contenedor .form .formTextarea {
+    font-size: 27px;
+  }
+  .contenedor .form .btnSumbit {
+    font-size: 30px;
+  }
+
+  .subHomeContainer {
+    width: 100%;
+    padding: 20px 20px;
+  }
+
+  .form-control-label {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+
+  .form-check-label {
+    font-size: 12px;
+    padding-right: 0.25rem !important;
+    padding-left: 0.25rem !important;
+    padding-top: 0rem !important;
+    padding-bottom: 1rem !important;
+  }
+
+  .form-check {
+    padding-left: 0.5em;
+  }
+  .formularioMain input {
+    padding: 8px 11px;
+    font-size: 12px !important;
+  }
+}
+
 @media screen and (min-width: 425px) and (max-width: 767px) {
   .bannerRow:hover {
     transform: scale(1.06);
@@ -3470,10 +3167,10 @@ footer .footerLeft {
   }
 
   .carritoIconoOfertas .fa-cart-plus {
-    float: right;
-
+    float: left;
+    margin-right: 0px;
     margin-top: 0px;
-    margin-right: 7px;
+    margin-left: 18px;
     background-image: linear-gradient(315deg, red 0%, #db9833 74%);
     font-size: 1.1em;
     padding: 8px;
@@ -3707,7 +3404,7 @@ footer .footerLeft {
     color: black;
     margin-top: 0px;
     margin-left: 0;
-    width: 272px;
+    width: -webkit-fill-available;
   }
 
   .contenidoInfo h2,
@@ -3715,7 +3412,6 @@ footer .footerLeft {
     font-size: 20px;
     font-weight: 600;
     text-align: center;
-    width: 306px;
   }
   .precio1 {
     margin-top: 23px;
@@ -3946,6 +3642,1429 @@ footer .footerLeft {
     font-size: 14px;
     padding: 0 !important;
   }
-
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .footer .footerCenter i {
+    margin: 10px 2px;
+  }
+  .bodycontact {
+    background-image: url(./Imagenes/mangabackground2.jpg);
+    background-size: 120%;
+    background-position: -40px;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    display: grid;
+    grid-template:
+      "descuentoTitulo"
+      "header"
+      "h21"
+      "formularioMain"
+      "subHome"
+      "footer";
+  }
+
+  .gridContainerOfertas {
+    display: grid;
+    grid-template:
+      "descuentoTitulo"
+      "header"
+      "h21"
+      "contenidoContenedor"
+      "subHome"
+      "footer" / 768px;
+  }
+  .gridContainerMangaLibros {
+    display: grid;
+    grid-template:
+      "descuentoTitulo"
+      "header"
+      "h21"
+      "selector"
+      "contenidoContenedorMangaLibros"
+      "subHome"
+      "footer" / 768px;
+  }
+
+  .searchBar {
+    margin-left: 0px;
+  }
+
+  .navMenu {
+    width: 768px;
+  }
+
+  .gridContainer {
+    display: grid;
+    grid-template:
+      "descuentoTitulo"
+      "header"
+      "h21"
+      "main1"
+      "h22"
+      "main2"
+      "tituloVioleta"
+      "main3"
+      "bannerHome"
+      "subHome"
+      "footer" /
+      768px;
+  }
+  .precio1Oferta {
+    display: block;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin-top: 22px;
+    margin-right: 88px;
+    font-size: 25px;
+
+    font-weight: 700;
+  }
+
+  .discount-label {
+    padding: 5px;
+    position: relative;
+    float: right;
+    margin-top: 20px;
+    margin-left: 0;
+    width: 60px;
+    -webkit-border-radius: 0 4px 0 4px;
+    -moz-border-radius: 0 4px 0 4px;
+    border-radius: 0 4px 4px 0;
+  }
+
+  .carritoIconoOfertas .fa-cart-plus {
+    float: right;
+    padding: 20px;
+    margin-top: 17px;
+    margin-right: 18px;
+    background-image: linear-gradient(315deg, red 0%, #db9833 74%);
+    font-size: 1.1em;
+    padding: 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+    -ms-transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+
+  .carritoIconoOfertas .fa-cart-plus:hover {
+    background-image: linear-gradient(315deg, red 0%, #db7133 74%);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+    -webkit-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+
+  .carritoIconoOfertas i {
+    font-size: 30px;
+    line-height: 26px;
+  }
+
+  .seleccion {
+    font-size: 21px;
+  }
+  .carritoIconoMangaLibros {
+    margin-right: 38px;
+  }
+  .Logo {
+    display: flex;
+    margin-left: 0px;
+  }
+
+  .buyBtn {
+    margin-bottom: 60px;
+    margin-left: 665px;
+    cursor: pointer;
+    font-size: 24px;
+    position: absolute;
+  }
+
+  .userLog {
+    margin-bottom: 60px;
+    margin-right: 6px;
+    cursor: pointer;
+    font-size: 24px;
+  }
+
+  .navMenuItems li {
+    padding: 0px 0px;
+    margin: 0 7px;
+  }
+
+  .navMenuItems {
+    width: max-content;
+    margin-left: 0px;
+    margin-right: 86px;
+  }
+
+  input,
+  textarea,
+  button {
+    font-size: 15px !important;
+  }
+
+  .navMenuItems li i {
+    margin: 0 0px;
+    border-radius: 3px;
+    font-size: 22px;
+    margin-left: 0px;
+    margin-right: 9px;
+  }
+
+  .navMenuItems li a {
+    padding: 0px 0px;
+    font-size: 16px;
+  }
+
+  .paginacion .crumbActive {
+    font-size: 20px;
+  }
+  .contenido {
+    width: 40%;
+  }
+
+  .carritoIcono .fa-cart-plus {
+    float: right;
+    padding: 9px;
+    margin-top: 14px;
+    margin-right: 73px;
+  }
+
+  .precio1 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 32px;
+  }
+
+  .precio1Index {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-right: 20px;
+  }
+
+  .contenidoInfo {
+    color: black;
+    margin-top: 0px;
+    margin-left: 0;
+    width: 308px;
+  }
+
+  .contenidoInfo h2 {
+    font-size: 21px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .imagenBanner {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    min-height: 150px;
+    object-fit: cover;
+  }
+
+  .contenidoMangaLibros {
+    height: 410px;
+    width: 270px;
+    margin: 50px 40px;
+  }
+
+  .bannerContainer {
+    padding: 50px 5px;
+    justify-content: space-evenly;
+  }
+
+  .bannerRow {
+    width: 100%;
+    margin: 0px 10px;
+  }
+
+  .emailLargo {
+    font-size: 24px;
+  }
+
+  .btnNew {
+    font-size: 24px;
+  }
+
+  .paginacion .paginacionLink {
+    font-size: 16px;
+  }
+
+  .formSelect {
+    font-size: 20px;
+  }
+
+  span.carritoTextoMangaLibros {
+    font-size: 16px;
+  }
+
+  .formTextarea {
+    font-size: 18px;
+  }
+
+  .formInput::placeholder {
+    font-size: 16px;
+  }
+
+  .subHomeContainer {
+    width: 100%;
+    padding: 2px 60px;
+  }
+  .subHomeContainerCentro {
+    padding: 18px 50px;
+  }
+  .subContenido1 {
+    font-size: 17px;
+
+    max-width: 60%;
+    margin-left: 50px;
+  }
+
+  .subContenido2 {
+    margin-top: 0px;
+  }
+
+  .contenidoInfoMangaLibros h2 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .contenidoInfoMangaLibros {
+    color: black;
+    margin-top: 0px;
+    margin-left: 0;
+    width: 280px;
+  }
+
+  .contenedor .form .btnSumbit {
+    font-size: 22px;
+  }
+
+  .selectorContainer {
+    width: 66%;
+  }
+  .footer {
+    padding: 28px 5px;
+  }
+  .footerLeft {
+    width: 40%;
+  }
+
+  .footer h3 {
+    font-size: 27px;
+  }
+
+  .LogoImagen {
+    width: 80px;
+  }
+
+  .footer .footerLinks {
+    font-size: 13px;
+  }
+
+  .footer .footerCompName {
+    color: rgb(121, 121, 121);
+    font-size: 16px;
+  }
+
+  .footer .footerCenter {
+    width: 45%;
+    padding: 0px;
+    margin-top: 48px;
+  }
+
+  .footer .footerCenter p {
+    font-size: 12px;
+  }
+
+  .footer .footerRight {
+    width: 30%;
+    margin-top: 36px;
+  }
+
+  .footer .footerAbout span {
+    font-size: 17px;
+  }
+
+  .footer .footerAbout {
+    line-height: 25px;
+    color: #92999f;
+    font-size: 16px;
+  }
+
+  .footer .footerIcons {
+    margin-left: 20px;
+    margin-top: 12px;
+  }
+
+  .footer .footerIcons a {
+    margin-right: 11px;
+    margin-bottom: 0px;
+  }
+
+  .contenidoInfo h2,
+  .contenidoInfoMangaLibros h2 {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .subHomeContainer {
+    width: 100%;
+    padding: 16px 60px;
+  }
+  .gridContainer {
+    display: grid;
+
+    grid-template:
+      "descuentoTitulo"
+      "header"
+      "h21"
+      "main1"
+      "h22"
+      "main2"
+      "tituloVioleta"
+      "main3"
+      "bannerHome"
+      "subHome"
+      "footer" /
+      1024px;
+  }
+  .bodycontact {
+    background-image: url(./Imagenes/mangabackground2.jpg);
+    background-size: 110%;
+    background-position: -40px;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    display: grid;
+    grid-template:
+      "descuentoTituloCont"
+      "header"
+      "h21"
+      "formularioMain"
+      "subHome"
+      "footer" / 1024px;
+  }
+
+  .Logo {
+    margin-left: 0px;
+  }
+
+  .gridContainerMangaLibros {
+    display: grid;
+    grid-template:
+      "descuentoTitulo"
+      "header"
+      "h21"
+      "selector"
+      "contenidoContenedorMangaLibros"
+      "subHome"
+      "footer" /
+      1024px;
+  }
+  .precio1Oferta {
+    display: block;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin-top: 23px;
+    margin-right: 83px;
+    font-size: 25px;
+
+    font-weight: 700;
+  }
+
+  .discount-label {
+    padding: 5px;
+    position: relative;
+    float: right;
+    margin-top: 20px;
+    margin-left: 0;
+    width: 60px;
+    -webkit-border-radius: 0 4px 0 4px;
+    -moz-border-radius: 0 4px 0 4px;
+    border-radius: 0 4px 4px 0;
+  }
+
+  .carritoIconoOfertas .fa-cart-plus {
+    float: right;
+    padding: 20px;
+    margin-top: 17px;
+    margin-right: 12px;
+    background-image: linear-gradient(315deg, red 0%, #db9833 74%);
+    font-size: 1.1em;
+    padding: 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+    -ms-transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+
+  .carritoIconoOfertas .fa-cart-plus:hover {
+    background-image: linear-gradient(315deg, red 0%, #db7133 74%);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+    -webkit-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+
+  .carritoIconoOfertas i {
+    font-size: 30px;
+    line-height: 26px;
+  }
+  .seleccion {
+    font-family: sans-serif;
+    text-align: center;
+    background: linear-gradient(
+      90deg,
+      rgba(250, 128, 114) 0%,
+      rgba(219, 152, 51) 50%,
+      rgba(250, 128, 114) 100%
+    );
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: rgb(46, 35, 35);
+    padding: 18px 12px;
+    font-weight: 600;
+  }
+
+  .seleccion3 {
+    font-family: sans-serif;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: rgb(46, 35, 35);
+    padding: 23px 12px;
+    font-weight: 600;
+  }
+
+  h3 .seleccion2 {
+    font-family: sans-serif;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: rgb(46, 35, 35);
+    padding: 23px 12px;
+    font-weight: 600;
+  }
+
+  .descuentoTexto {
+    font-family: sans-serif;
+
+    font-weight: 500;
+
+    font-size: 20px;
+  }
+
+  .navMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    background-color: rgb(255, 228, 196);
+    width: 1024px;
+  }
+  .navMenuItems {
+    display: flex;
+    height: 40px;
+    text-decoration: none;
+    color: dimgrey;
+    font-weight: bold;
+    list-style: none;
+    font-weight: bold;
+    margin-left: 11px;
+    margin-top: 120px;
+    width: 800px;
+    margin-right: 54px;
+  }
+
+  .navMenuItems li {
+    padding: 0px 0px;
+    margin: 0 9px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    display: block;
+    text-transform: uppercase;
+  }
+
+  .navMenuItems li i {
+    margin: 0px 8px;
+    border-radius: 0px;
+    font-size: 22px;
+  }
+  .navMenuItems li a {
+    padding: 0px 0px;
+    margin: 0px 0px;
+  }
+  .btnMenu {
+    margin-right: 30px;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+  }
+  .buyBtn {
+    margin-bottom: 60px;
+    margin-left: 900px;
+    cursor: pointer;
+    font-size: 25px;
+    position: absolute;
+  }
+
+  .userLog {
+    margin-bottom: 60px;
+    margin-right: 9px;
+    cursor: pointer;
+    font-size: 25px;
+  }
+
+  .userLog i {
+    color: black;
+  }
+
+  .searchBar {
+    margin-bottom: 60px;
+    margin-left: 30%;
+    position: absolute;
+    padding: 5px;
+  }
+
+  .searchBar input {
+    font-size: 20px;
+  }
+
+  .carritoIcono .fa-cart-plus {
+    float: right;
+    padding: 20px;
+    margin-top: 17px;
+    margin-right: 70px;
+    background-image: linear-gradient(315deg, red 0%, #db9833 74%);
+    font-size: 1.1em;
+    padding: 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+    -ms-transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+
+  .carritoIcono .fa-cart-plus:hover {
+    background-image: linear-gradient(315deg, red 0%, #db7133 74%);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+    -webkit-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+
+  span .carritoTexto {
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #fff;
+  }
+
+  .carritoIcono i {
+    font-size: 30px;
+    line-height: 26px;
+  }
+
+  .precio1 {
+    display: block;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin-top: 52px;
+    margin-right: 20px;
+    font-size: 25px;
+
+    font-weight: 700;
+  }
+
+  .precio1Index {
+    display: block;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin-top: 52px;
+    margin-right: 20px;
+    font-size: 25px;
+
+    font-weight: 700;
+  }
+
+  .bannerContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: end;
+
+    background: linear-gradient(
+      180deg,
+      rgba(250, 128, 114) 0%,
+      rgb(255, 228, 196) 50%,
+      rgb(255, 228, 196) 100%
+    );
+    padding: 50px 50px;
+  }
+
+  .bannerContainer {
+    display: flex;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    background: linear-gradient(
+      180deg,
+      rgba(250, 128, 114) 0%,
+      rgb(255, 228, 196) 50%,
+      rgb(255, 228, 196) 100%
+    );
+    padding: 50px 0px;
+  }
+
+  .bannerRow {
+    padding: 0 15;
+    margin-right: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 7px #111;
+    background: linear-gradient(
+      90deg,
+      rgba(250, 128, 114) 0%,
+      rgb(191, 69, 69) 70%,
+      rgba(250, 128, 114) 100%
+    );
+    width: 310px;
+    margin: 12px;
+    height: 200px;
+    cursor: pointer;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+
+  .textoBanner {
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+  }
+
+  .imagenBanner {
+    min-height: 158px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .textoBannerTexto {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 600 !important;
+    text-align: left;
+    font-size: 18px;
+
+    line-height: 19px;
+    margin-left: 15px;
+    margin-top: 7px;
+  }
+
+  .flechaBannerCont {
+    margin-bottom: 100px;
+    margin-right: 10px;
+  }
+
+  .flechaBanner {
+    font-size: 20px;
+  }
+
+  .emailLargo {
+    font-size: 22px;
+    font-weight: 600 !important;
+  }
+
+  .formSelect {
+    border: 1px solid rgb(60, 60, 60, 0.15);
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 20px;
+    width: 50%;
+    padding: 12px 12px;
+    display: flex;
+    margin-left: 40px;
+    cursor: pointer;
+  }
+
+  .selector {
+    position: relative;
+    padding: 13px 15px;
+    background-color: rgb(255, 228, 196);
+  }
+
+  .subContenido1 {
+    font-size: 16px;
+    max-width: 30%;
+  }
+  .subContenido2 {
+    display: flex;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 16px;
+  }
+
+  .carritoIconoMangaLibros {
+    margin-right: 68px;
+    padding: 10px 16px;
+  }
+
+  span.carritoTextoMangaLibros {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #fff;
+  }
+  .contenido {
+    width: 300px;
+  }
+
+  .contenidoInfo {
+    color: black;
+    margin-top: 0px;
+    margin-left: 0;
+    width: 300px;
+  }
+
+  .contenedor .form .btnSumbit {
+    font-size: 24px;
+  }
+
+  .contenedor .form .formTextarea,
+  .formInput::placeholder {
+    font-size: 16px;
+  }
+  .contenidoInfo h2,
+  .contenidoInfoMangaLibros h2 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .contenidoInfoMangaLibros {
+    color: black;
+    margin-top: 0px;
+    margin-left: 0;
+    width: 280px;
+  }
+
+  .precio1 {
+    display: block;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin-top: 32px;
+    margin-right: 20px;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .precio1Index {
+    display: block;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .footer {
+    padding: 38px 24px;
+  }
+  .footer .footerLinks {
+    color: #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+    font-size: 17px;
+  }
+  .footer .footerCompName {
+    font-size: 17px;
+  }
+  .footer .footerCenter {
+    width: 45%;
+  }
+
+  .footer .footerCenter p {
+    font-size: 18px;
+  }
+
+  .footer .footerRight {
+    width: 15%;
+  }
+  .footer .footerAbout {
+    font-size: 17px;
+  }
+
+  .footer .footerAbout span {
+    font-size: 18px;
+  }
+
+  .footer .footerIcons {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1919px) {
+  .subHomeContainer {
+    width: 100%;
+    padding: 16px 60px;
+  }
+  .gridContainer {
+    display: grid;
+
+    grid-template:
+      "descuentoTitulo"
+      "header"
+      "h21"
+      "main1"
+      "h22"
+      "main2"
+      "tituloVioleta"
+      "main3"
+      "bannerHome"
+      "subHome"
+      "footer" /
+      auto;
+  }
+  .bodycontact {
+    background-image: url(./Imagenes/mangabackground2.jpg);
+    background-size: 110%;
+    background-position: -40px;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    display: grid;
+    grid-template:
+      "descuentoTituloCont"
+      "header"
+      "h21"
+      "formularioMain"
+      "subHome"
+      "footer" / auto;
+  }
+
+  .Logo {
+    margin-left: 0px;
+  }
+
+  .gridContainerMangaLibros {
+    display: grid;
+    grid-template:
+      "descuentoTitulo"
+      "header"
+      "h21"
+      "selector"
+      "contenidoContenedorMangaLibros"
+      "subHome"
+      "footer" / auto;
+  }
+
+  .precio1Oferta {
+    display: block;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin-top: 23px;
+    margin-right: 83px;
+    font-size: 25px;
+
+    font-weight: 700;
+  }
+
+  .discount-label {
+    padding: 5px;
+    position: relative;
+    float: right;
+    margin-top: 20px;
+    margin-left: 0;
+    width: 60px;
+    -webkit-border-radius: 0 4px 0 4px;
+    -moz-border-radius: 0 4px 0 4px;
+    border-radius: 0 4px 4px 0;
+  }
+
+  .carritoIconoOfertas .fa-cart-plus {
+    float: right;
+    padding: 20px;
+    margin-top: 17px;
+    margin-right: 12px;
+    background-image: linear-gradient(315deg, red 0%, #db9833 74%);
+    font-size: 1.1em;
+    padding: 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+    -ms-transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+
+  .carritoIconoOfertas .fa-cart-plus:hover {
+    background-image: linear-gradient(315deg, red 0%, #db7133 74%);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+    -webkit-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+
+  .carritoIconoOfertas i {
+    font-size: 30px;
+    line-height: 26px;
+  }
+  .seleccion {
+    font-family: sans-serif;
+    text-align: center;
+    background: linear-gradient(
+      90deg,
+      rgba(250, 128, 114) 0%,
+      rgba(219, 152, 51) 50%,
+      rgba(250, 128, 114) 100%
+    );
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: rgb(46, 35, 35);
+    padding: 18px 12px;
+    font-weight: 600;
+  }
+
+  .seleccion3 {
+    font-family: sans-serif;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: rgb(46, 35, 35);
+    padding: 23px 12px;
+    font-weight: 600;
+  }
+
+  h3 .seleccion2 {
+    font-family: sans-serif;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: rgb(46, 35, 35);
+    padding: 23px 12px;
+    font-weight: 600;
+  }
+
+  .descuentoTexto {
+    font-family: sans-serif;
+
+    font-weight: 500;
+
+    font-size: 20px;
+  }
+
+  .navMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    background-color: rgb(255, 228, 196);
+    width: 1024px;
+  }
+  .navMenuItems {
+    display: flex;
+    height: 40px;
+    text-decoration: none;
+    color: dimgrey;
+    font-weight: bold;
+    list-style: none;
+    font-weight: bold;
+    margin-left: 11px;
+    margin-top: 120px;
+    width: 800px;
+    margin-right: 0px;
+  }
+
+  .navMenuItems li {
+    padding: 0px 0px;
+    margin: 0 9px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    display: block;
+    text-transform: uppercase;
+  }
+
+  .navMenuItems li i {
+    margin: 0px 8px;
+    border-radius: 0px;
+    font-size: 22px;
+  }
+  .navMenuItems li a {
+    padding: 0px 0px;
+    margin: 0px 0px;
+  }
+  .btnMenu {
+    margin-right: 30px;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+  }
+  .buyBtn {
+    margin-bottom: 60px;
+    margin-left: 1117px;
+    cursor: pointer;
+    font-size: 25px;
+    position: absolute;
+  }
+
+  .userLog {
+    margin-bottom: 60px;
+    margin-right: 9px;
+    cursor: pointer;
+    font-size: 25px;
+  }
+
+  .userLog i {
+    color: black;
+  }
+
+  .searchBar {
+    margin-bottom: 60px;
+    margin-left: 30%;
+    position: absolute;
+    padding: 5px;
+  }
+
+  .searchBar input {
+    font-size: 20px;
+  }
+
+  .carritoIcono .fa-cart-plus {
+    float: right;
+    padding: 20px;
+    margin-top: 17px;
+    margin-right: 70px;
+    background-image: linear-gradient(315deg, red 0%, #db9833 74%);
+    font-size: 1.1em;
+    padding: 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+    -ms-transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+
+  .carritoIcono .fa-cart-plus:hover {
+    background-image: linear-gradient(315deg, red 0%, #db7133 74%);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+    -webkit-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+
+  span .carritoTexto {
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #fff;
+  }
+
+  .carritoIcono i {
+    font-size: 30px;
+    line-height: 26px;
+  }
+
+  .precio1 {
+    display: block;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin-top: 52px;
+    margin-right: 20px;
+    font-size: 25px;
+
+    font-weight: 700;
+  }
+
+  .precio1Index {
+    display: block;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin-top: 52px;
+    margin-right: 20px;
+    font-size: 25px;
+
+    font-weight: 700;
+  }
+
+  .bannerContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: end;
+
+    background: linear-gradient(
+      180deg,
+      rgba(250, 128, 114) 0%,
+      rgb(255, 228, 196) 50%,
+      rgb(255, 228, 196) 100%
+    );
+    padding: 50px 50px;
+  }
+
+  .bannerContainer {
+    display: flex;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    background: linear-gradient(
+      180deg,
+      rgba(250, 128, 114) 0%,
+      rgb(255, 228, 196) 50%,
+      rgb(255, 228, 196) 100%
+    );
+    padding: 50px 0px;
+  }
+
+  .bannerRow {
+    padding: 0 15;
+    margin-right: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 7px #111;
+    background: linear-gradient(
+      90deg,
+      rgba(250, 128, 114) 0%,
+      rgb(191, 69, 69) 70%,
+      rgba(250, 128, 114) 100%
+    );
+    width: 310px;
+    margin: 12px;
+    height: 200px;
+    cursor: pointer;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+
+  .textoBanner {
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+  }
+
+  .imagenBanner {
+    min-height: 158px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .textoBannerTexto {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 600 !important;
+    text-align: left;
+    font-size: 18px;
+
+    line-height: 19px;
+    margin-left: 15px;
+    margin-top: 7px;
+  }
+
+  .flechaBannerCont {
+    margin-bottom: 100px;
+    margin-right: 10px;
+  }
+
+  .flechaBanner {
+    font-size: 20px;
+  }
+
+  .emailLargo {
+    font-size: 22px;
+    font-weight: 600 !important;
+  }
+
+  .formSelect {
+    border: 1px solid rgb(60, 60, 60, 0.15);
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 20px;
+    width: 50%;
+    padding: 12px 12px;
+    display: flex;
+    margin-left: 40px;
+    cursor: pointer;
+  }
+
+  .selector {
+    position: relative;
+    padding: 13px 15px;
+    background-color: rgb(255, 228, 196);
+  }
+
+  .subContenido1 {
+    font-size: 16px;
+    max-width: 30%;
+  }
+  .subContenido2 {
+    display: flex;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 16px;
+  }
+
+  .carritoIconoMangaLibros {
+    margin-right: 68px;
+    padding: 10px 16px;
+  }
+
+  span.carritoTextoMangaLibros {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #fff;
+  }
+  .contenido {
+    width: 300px;
+    margin: 50px 66px;
+  }
+
+  .contenidoInfo {
+    color: black;
+    margin-top: 0px;
+    margin-left: 0;
+    width: 300px;
+  }
+
+  .contenedor .form .btnSumbit {
+    font-size: 24px;
+  }
+
+  .contenedor .form .formTextarea,
+  .formInput::placeholder {
+    font-size: 16px;
+  }
+  .contenidoInfo h2,
+  .contenidoInfoMangaLibros h2 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .contenidoInfoMangaLibros {
+    color: black;
+    margin-top: 0px;
+    margin-left: 0;
+    width: 280px;
+  }
+
+  .precio1 {
+    display: block;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin-top: 32px;
+    margin-right: 20px;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .precio1Index {
+    display: block;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .footer {
+    padding: 38px 24px;
+  }
+  .footer .footerLinks {
+    color: #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+    font-size: 17px;
+  }
+  .footer .footerCompName {
+    font-size: 17px;
+  }
+  .footer .footerCenter {
+    width: 45%;
+  }
+
+  .footer .footerCenter p {
+    font-size: 18px;
+  }
+
+  .footer .footerRight {
+    width: 15%;
+  }
+  .footer .footerAbout {
+    font-size: 17px;
+  }
+
+  .footer .footerAbout span {
+    font-size: 18px;
+  }
+
+  .footer .footerIcons {
+    text-align: center;
+  }
+}

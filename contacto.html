@@ -31,7 +31,7 @@
         <div class="navContainer">
             <nav class="navMenu">
                 <nav class="navMenu">
-                    <div class="Logo" data-aos="fade-right" data-aos-once="true" data-aos-delay="300">
+                    <div class="Logo">
                         <a href="./index.html"><img class="LogoImagen" src="./Imagenes/LogoPng.png" width="150">
 
                         </a>
@@ -43,7 +43,7 @@
                     </label>
 
 
-                    <ul class="navMenuItems" data-aos="fade-left" data-aos-once="true" data-aos-delay="20">
+                    <ul class="navMenuItems">
 
                         <li><i class="fa-solid fa-fire"></i><a href="./index.html">Popular</a></li>
                         <li><i class="fa-solid fa-book-skull"></i><a href="./mangas.html">Mangas</a></li>
@@ -54,53 +54,68 @@
 
                     </ul>
                     </span>
-                    <div class="searchBar" data-aos="zoom-in" data-aos-once="true" data-aos-delay="200">
+                    <div class="searchBar">
                         <input type="text" placeholder="¿Qué estás buscando?" required>
                         <div class="searchBarBtn">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </div>
                     </div>
-                   
-                    <span class="buyBtn"  data-aos="zoom-in" data-aos-once="true" data-aos-delay="200">
+
+                    <span class="buyBtn">
                         <i class="fa-solid fa-cart-shopping"></i>
-                    </label>
-                    
-                    <span class="userLog"  onclick="myFunction()"  data-aos="zoom-in" data-aos-once="true" data-aos-delay="200">
-                        <i class="fa-solid fa-user-ninja"></i>
+                        </label>
+
+                        <span class="userLog" onclick="myFunction()">
+                            <i class="fa-solid fa-user-ninja"></i>
                 </nav>
         </div>
     </header>
     <h2 class="h21">
         <p class="seleccion"><span class="seleccionContacto">Contacto</span></p>
     </h2>
-    <main class="formularioMain">
+    <main class="formularioMain" data-aos="fade-up" data-aos-once="true" data-aos-delay="200" data-aos-duration="1000">
         <div class="container-fluid mx-auto">
             <div class="row d-flex justify-content-center">
                 <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
-                    
+
                     <div class="card">
                         <h5 class="text-center mb-4">¿TE GUSTARÍA CONTACTAR CON NOSOTROS?</h5>
                         <form class="form-card" onsubmit="event.preventDefault()">
                             <div class="row justify-content-between text-left">
-                                <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Primer nombre<span class="text-danger"> *</span></label> <input type="text" id="fname" name="fname" placeholder="Intruduce tu primer nombre" onblur="validate(1)"> </div>
-                                <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Segundo nombre<span class="text-danger"> *</span></label> <input type="text" id="lname" name="lname" placeholder="Intruduce tu segundo nombre" onblur="validate(2)"> </div>
+                                <div class="form-group col-sm-6 flex-column d-flex"> <label
+                                        class="form-control-label px-3">Primer nombre<span class="text-danger">
+                                            *</span></label> <input type="text" id="fname" name="fname"
+                                        placeholder="Intruduce tu primer nombre" onblur="validate(1)"> </div>
+                                <div class="form-group col-sm-6 flex-column d-flex"> <label
+                                        class="form-control-label px-3">Segundo nombre<span class="text-danger">
+                                            *</span></label> <input type="text" id="lname" name="lname"
+                                        placeholder="Intruduce tu segundo nombre" onblur="validate(2)"> </div>
                             </div>
                             <div class="row justify-content-between text-left">
-                                <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Email de negocio<span class="text-danger"> *</span></label> <input type="text" id="email" name="email" placeholder="" onblur="validate(3)"> </div>
-                                <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Número de teléfono<span class="text-danger"> *</span></label> <input type="text" id="mob" name="mob" placeholder="" onblur="validate(4)"> </div>
+                                <div class="form-group col-sm-6 flex-column d-flex"> <label
+                                        class="form-control-label px-3">Email de negocio<span class="text-danger">
+                                            *</span></label> <input type="text" id="email" name="email" placeholder=""
+                                        onblur="validate(3)"> </div>
+                                <div class="form-group col-sm-6 flex-column d-flex"> <label
+                                        class="form-control-label px-3">Número de teléfono<span class="text-danger">
+                                            *</span></label> <input type="text" id="mob" name="mob" placeholder=""
+                                        onblur="validate(4)"> </div>
                             </div>
-                            
+
                             <div class="row justify-content-between text-left">
-                                <div class="form-group col-12 flex-column d-flex"> <label class="form-control-label">¿Por qué te gustaría contactar con nosotros?<span class="text-danger"> *</span></label> <input type="text" id="ans" name="ans" placeholder="" onblur="validate(6)"> </div>
+                                <div class="form-group col-12 flex-column d-flex"> <label
+                                        class="form-control-label">¿Por qué te gustaría contactar con nosotros?<span
+                                            class="text-danger"> *</span></label> <input type="text" id="ans" name="ans"
+                                        placeholder="" onblur="validate(6)"> </div>
                             </div>
                             <div class="form-check text-start">
                                 <input class="form-check-input mt-3" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label mt-3" for="flexCheckDefault">
-                                  Acepto los Term. y Cond.
+                                <label class="form-check-label mt-3" for="flexCheckDefault">Acepto los Term. y Cond.
                                 </label>
-                              </div>
+                            </div>
                             <div class="row justify-content-end my-4">
-                                <div class="form-group col-sm-6"> <button type="submit" class="btn-block btn-primary">Enviar mensaje</button> </div>
+                                <div class="form-group col-sm-6"> <button type="submit"
+                                        class="btn-block btn-primary">Enviar mensaje</button> </div>
                             </div>
                         </form>
                     </div>
