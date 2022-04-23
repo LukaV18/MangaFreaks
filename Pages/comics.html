@@ -14,59 +14,61 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" v />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
         <script src="https://kit.fontawesome.com/71757bdbd3.js" crossorigin="anonymous"></script>
     
     </head>
-<div>
-    <h3 class="descuentoTitulo">
-        <p class="descuentoTexto">15% OFF PAGANDO EN EFECTIVO/TRANSFERENCIA</p>
-
-    </h3>
-</div>
 
 <body class="gridContainerMangaLibros">
+    <div class="descuentoTituloCont">
+        <div class="descuentoTitulo">
+            <p class="descuentoTexto">15% OFF PAGANDO EN EFECTIVO/TRANSFERENCIA</p>
+
+        </div>
+    </div>
     <header class="header">
         <div class="navContainer">
             <nav class="navMenu">
-                <nav class="navMenu">
-                    <div class="Logo">
-                        <a href="./index.html"><img class="LogoImagen" src="../Imagenes/LogoPng.png" width="150">
 
-                        </a>
+                <div class="Logo">
+                    <a href="./index.html"><img class="LogoImagen" src="../Imagenes/LogoPng.png" alt="Logo" width="150">
+
+                    </a>
+                </div>
+                <input type="checkbox" id="check">
+                <label for="check" class="barBtn">
+                    <i class="fa fa-bars"></i>
+
+                </label>
+
+
+                <ul class="navMenuItems">
+
+                    <li class="primero"><i class="fa-solid fa-fire"></i><a href="../index.html">Popular</a></li>
+                    <li><i class="fa-solid fa-book-skull"></i><a href="./mangas.html">Mangas</a></li>
+                    <li><i class="fa-solid fa-book"></i><a href="./comics.html">Cómics</a></li>
+                    <li><i class="fa-solid fa-percent"></i><a href="./ofertas.html">Ofertas</a></li>
+                    <li><i class="fa-solid fa-id-card"></i><a href="./contacto.html">Contacto</a></li>
+
+
+                </ul>
+                
+                <div class="searchBar">
+                    <input type="text" placeholder="¿Qué estás buscando?" required>
+                    <div class="searchBarBtn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
-                    <input type="checkbox" id="check">
-                    <label for="check" class="barBtn">
-                        <i class="fa fa-bars"></i>
+                </div>
 
-                    </label>
-
-
-                    <ul class="navMenuItems">
-
-                        <li><i class="fa-solid fa-fire"></i><a href="../index.html">Popular</a></li>
-                        <li><i class="fa-solid fa-book-skull"></i><a href="./mangas.html">Mangas</a></li>
-                        <li><i class="fa-solid fa-book"></i><a href="./comics.html">Cómics</a></li>
-                        <li><i class="fa-solid fa-percent"></i><a href="./ofertas.html">Ofertas</a></li>
-                        <li><i class="fa-solid fa-id-card"></i><a href="./contacto.html">Contacto</a></li>
+                <span class="buyBtn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </span>
 
 
-                    </ul>
+                    <span class="userLog" onclick="myFunction()">
+                        <i class="fa-solid fa-user-ninja"></i>
                     </span>
-                    <div class="searchBar">
-                        <input type="text" placeholder="¿Qué estás buscando?" required>
-                        <div class="searchBarBtn">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </div>
-                    </div>
-
-                    <span class="buyBtn">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                        </label>
-
-                        <span class="userLog" onclick="myFunction()">
-                            <i class="fa-solid fa-user-ninja"></i>
-                </nav>
+            </nav>
         </div>
     </header>
     <h2 class="h21">
@@ -98,7 +100,7 @@
 
         <div class="contenidoMangaLibros">
             <div class="contenidoImagen">
-                <img src="../Imagenes/conan.jpg" width="200">
+                <img src="../Imagenes/conan.jpg" width="200" alt="Producto">
             </div>
             <div class="contenidoInfoMangaLibros">
                 <h2>Conan el Barbaro 06</h2>
@@ -111,7 +113,7 @@
                     <span class="carritoIconoMangaLibros">
                         <span class="carritoMangaLibros">
                             <i class="fas fa-cart-plus"></i>
-                        </span> <span class="carritoTextoMangaLibros">Agregar</span></i>
+                        </span> <span class="carritoTextoMangaLibros">Agregar</span>
                     </span>
                 </div>
             </div>
@@ -119,7 +121,7 @@
 
         <div class="contenidoMangaLibros">
             <div class="contenidoImagen">
-                <img src="../Imagenes/CAPITAN.jpg" width="200">
+                <img src="../Imagenes/CAPITAN.jpg" width="200" alt="Producto">
             </div>
             <div class="contenidoInfoMangaLibros">
                 <h2>Capitan America 03</h2>
@@ -132,7 +134,7 @@
                     <span class="carritoIconoMangaLibros">
                         <span class="carritoMangaLibros">
                             <i class="fas fa-cart-plus"></i>
-                        </span> <span class="carritoTextoMangaLibros">Agregar</span></i>
+                        </span> <span class="carritoTextoMangaLibros">Agregar</span>
                     </span>
                 </div>
             </div>
@@ -140,7 +142,7 @@
 
         <div class="contenidoMangaLibros">
             <div class="contenidoImagen">
-                <img src="../Imagenes/thor.jpg" width="200">
+                <img src="../Imagenes/thor.jpg" width="200" alt="Producto">
             </div>
             <div class="contenidoInfoMangaLibros">
                 <h2>Thor 04 Rey Thor</h2>
@@ -153,7 +155,7 @@
                     <span class="carritoIconoMangaLibros">
                         <span class="carritoMangaLibros">
                             <i class="fas fa-cart-plus"></i>
-                        </span> <span class="carritoTextoMangaLibros">Agregar</span></i>
+                        </span> <span class="carritoTextoMangaLibros">Agregar</span>
                     </span>
                 </div>
             </div>
@@ -161,7 +163,7 @@
 
         <div class="contenidoMangaLibros">
             <div class="contenidoImagen">
-                <img src="../Imagenes/avengers4.jpg" width="200">
+                <img src="../Imagenes/avengers4.jpg" width="200" alt="Producto">
             </div>
             <div class="contenidoInfoMangaLibros">
                 <h2>Avengers 04</h2>
@@ -174,7 +176,7 @@
                     <span class="carritoIconoMangaLibros">
                         <span class="carritoMangaLibros">
                             <i class="fas fa-cart-plus"></i>
-                        </span> <span class="carritoTextoMangaLibros">Agregar</span></i>
+                        </span> <span class="carritoTextoMangaLibros">Agregar</span>
                     </span>
                 </div>
             </div>
@@ -182,7 +184,7 @@
 
         <div class="contenidoMangaLibros">
             <div class="contenidoImagen">
-                <img src="../Imagenes/spiderman16.jpg" width="200">
+                <img src="../Imagenes/spiderman16.jpg" width="200" alt="Producto">
             </div>
             <div class="contenidoInfoMangaLibros">
                 <h2>Awesome Spiderman 16</h2>
@@ -195,7 +197,7 @@
                     <span class="carritoIconoMangaLibros">
                         <span class="carritoMangaLibros">
                             <i class="fas fa-cart-plus"></i>
-                        </span> <span class="carritoTextoMangaLibros">Agregar</span></i>
+                        </span> <span class="carritoTextoMangaLibros">Agregar</span>
                     </span>
                 </div>
             </div>
@@ -203,7 +205,7 @@
 
         <div class="contenidoMangaLibros">
             <div class="contenidoImagen">
-                <img src="../Imagenes/cuatrofant.jpg" width="200">
+                <img src="../Imagenes/cuatrofant.jpg" width="200" alt="Producto">
             </div>
             <div class="contenidoInfoMangaLibros">
                 <h2>Cuatro Fantasticos 03</h2>
@@ -216,7 +218,7 @@
                     <span class="carritoIconoMangaLibros">
                         <span class="carritoMangaLibros">
                             <i class="fas fa-cart-plus"></i>
-                        </span> <span class="carritoTextoMangaLibros">Agregar</span></i>
+                        </span> <span class="carritoTextoMangaLibros">Agregar</span>
                     </span>
                 </div>
             </div>
@@ -224,7 +226,7 @@
 
         <div class="contenidoMangaLibros">
             <div class="contenidoImagen">
-                <img src="../Imagenes/green.jpg" width="200">
+                <img src="../Imagenes/green.jpg" width="200" alt="Producto">
             </div>
             <div class="contenidoInfoMangaLibros">
                 <h2>Green Lantern</h2>
@@ -237,7 +239,7 @@
                     <span class="carritoIconoMangaLibros">
                         <span class="carritoMangaLibros">
                             <i class="fas fa-cart-plus"></i>
-                        </span> <span class="carritoTextoMangaLibros">Agregar</span></i>
+                        </span> <span class="carritoTextoMangaLibros">Agregar</span>
                     </span>
                 </div>
             </div>
@@ -245,7 +247,7 @@
 
         <div class="contenidoMangaLibros">
             <div class="contenidoImagen">
-                <img src="../Imagenes/voteloki.jpg" width="200">
+                <img src="../Imagenes/voteloki.jpg" width="200" alt="Producto">
             </div>
             <div class="contenidoInfoMangaLibros">
                 <h2>Vote Loki</h2>
@@ -258,7 +260,7 @@
                     <span class="carritoIconoMangaLibros">
                         <span class="carritoMangaLibros">
                             <i class="fas fa-cart-plus"></i>
-                        </span> <span class="carritoTextoMangaLibros">Agregar</span></i>
+                        </span> <span class="carritoTextoMangaLibros">Agregar</span>
                     </span>
                 </div>
             </div>
@@ -266,7 +268,7 @@
 
         <div class="contenidoMangaLibros">
             <div class="contenidoImagen">
-                <img src="../Imagenes/venom.jpg" width="200">
+                <img src="../Imagenes/venom.jpg" width="200" alt="Producto">
             </div>
             <div class="contenidoInfoMangaLibros">
                 <h2>Venom 02 El Abismo</h2>
@@ -279,7 +281,7 @@
                     <span class="carritoIconoMangaLibros">
                         <span class="carritoMangaLibros">
                             <i class="fas fa-cart-plus"></i>
-                        </span> <span class="carritoTextoMangaLibros">Agregar</span></i>
+                        </span> <span class="carritoTextoMangaLibros">Agregar</span>
                     </span>
                 </div>
             </div>
@@ -287,7 +289,7 @@
 
         <div class="contenidoMangaLibros">
             <div class="contenidoImagen">
-                <img src="../Imagenes/crisis.jpg" width="200">
+                <img src="../Imagenes/crisis.jpg" width="200" alt="Producto">
             </div>
             <div class="contenidoInfoMangaLibros">
                 <h2>Crisis Infinita</h2>
@@ -300,7 +302,7 @@
                     <span class="carritoIconoMangaLibros">
                         <span class="carritoMangaLibros">
                             <i class="fas fa-cart-plus"></i>
-                        </span> <span class="carritoTextoMangaLibros">Agregar</span></i>
+                        </span> <span class="carritoTextoMangaLibros">Agregar</span>
                     </span>
                 </div>
             </div>
@@ -308,7 +310,7 @@
 
         <div class="contenidoMangaLibros">
             <div class="contenidoImagen">
-                <img src="../Imagenes/batmanjoker.jpg" width="200">
+                <img src="../Imagenes/batmanjoker.jpg" width="200" alt="Producto">
             </div>
             <div class="contenidoInfoMangaLibros">
                 <h2>Batman: Tres Jokers</h2>
@@ -321,7 +323,7 @@
                     <span class="carritoIconoMangaLibros">
                         <span class="carritoMangaLibros">
                             <i class="fas fa-cart-plus"></i>
-                        </span> <span class="carritoTextoMangaLibros">Agregar</span></i>
+                        </span> <span class="carritoTextoMangaLibros">Agregar</span>
                     </span>
                 </div>
             </div>
@@ -329,7 +331,7 @@
 
         <div class="contenidoMangaLibros">
             <div class="contenidoImagen">
-                <img src="../Imagenes/elhumano.jpg" width="200">
+                <img src="../Imagenes/elhumano.jpg" width="200" alt="Producto">
             </div>
             <div class="contenidoInfoMangaLibros">
                 <h2>El Humano</h2>
@@ -342,7 +344,7 @@
                     <span class="carritoIconoMangaLibros">
                         <span class="carritoMangaLibros">
                             <i class="fas fa-cart-plus"></i>
-                        </span> <span class="carritoTextoMangaLibros">Agregar</span></i>
+                        </span> <span class="carritoTextoMangaLibros">Agregar</span>
                     </span>
                 </div>
             </div>
@@ -350,7 +352,7 @@
 
         <div class="contenidoMangaLibros">
             <div class="contenidoImagen">
-                <img src="../Imagenes/virus.jpg" width="200">
+                <img src="../Imagenes/virus.jpg" width="200" alt="Producto">
             </div>
             <div class="contenidoInfoMangaLibros">
                 <h2>Dcease: Virus Zombie</h2>
@@ -363,7 +365,7 @@
                     <span class="carritoIconoMangaLibros">
                         <span class="carritoMangaLibros">
                             <i class="fas fa-cart-plus"></i>
-                        </span> <span class="carritoTextoMangaLibros">Agregar</span></i>
+                        </span> <span class="carritoTextoMangaLibros">Agregar</span>
                     </span>
                 </div>
             </div>
@@ -371,7 +373,7 @@
 
         <div class="contenidoMangaLibros">
             <div class="contenidoImagen">
-                <img src="../Imagenes/providence.jpg" width="200">
+                <img src="../Imagenes/providence.jpg" width="200" alt="Producto">
             </div>
             <div class="contenidoInfoMangaLibros">
                 <h2>Providence 03</h2>
@@ -384,7 +386,7 @@
                     <span class="carritoIconoMangaLibros">
                         <span class="carritoMangaLibros">
                             <i class="fas fa-cart-plus"></i>
-                        </span> <span class="carritoTextoMangaLibros">Agregar</span></i>
+                        </span> <span class="carritoTextoMangaLibros">Agregar</span>
                     </span>
                 </div>
             </div>
@@ -392,7 +394,7 @@
 
         <div class="contenidoMangaLibros">
             <div class="contenidoImagen">
-                <img src="../Imagenes/Batmancon.jpg" width="200">
+                <img src="../Imagenes/Batmancon.jpg" width="200" alt="Producto">
             </div>
             <div class="contenidoInfoMangaLibros">
                 <h2>Batman Condenado</h2>
@@ -405,7 +407,7 @@
                     <span class="carritoIconoMangaLibros">
                         <span class="carritoMangaLibros">
                             <i class="fas fa-cart-plus"></i>
-                        </span> <span class="carritoTextoMangaLibros">Agregar</span></i>
+                        </span> <span class="carritoTextoMangaLibros">Agregar</span>
                     </span>
                 </div>
             </div>
@@ -413,7 +415,7 @@
 
         <div class="contenidoMangaLibros">
             <div class="contenidoImagen">
-                <img src="../Imagenes/maxx.jpg" width="200">
+                <img src="../Imagenes/maxx.jpg" width="200" alt="Producto">
             </div>
             <div class="contenidoInfoMangaLibros">
                 <h2>The Maxx 04</h2>
@@ -426,7 +428,7 @@
                     <span class="carritoIconoMangaLibros">
                         <span class="carritoMangaLibros">
                             <i class="fas fa-cart-plus"></i>
-                        </span> <span class="carritoTextoMangaLibros">Agregar</span></i>
+                        </span> <span class="carritoTextoMangaLibros">Agregar</span>
                     </span>
                 </div>
             </div>
@@ -434,7 +436,7 @@
 
         <div class="contenidoMangaLibros">
             <div class="contenidoImagen">
-                <img src="../Imagenes/avengers.jpg" width="200">
+                <img src="../Imagenes/avengers.jpg" width="200" alt="Producto">
             </div>
             <div class="contenidoInfoMangaLibros">
                 <h2>Avengers #1</h2>
@@ -447,7 +449,7 @@
                     <span class="carritoIconoMangaLibros">
                         <span class="carritoMangaLibros">
                             <i class="fas fa-cart-plus"></i>
-                        </span> <span class="carritoTextoMangaLibros">Agregar</span></i>
+                        </span> <span class="carritoTextoMangaLibros">Agregar</span>
                     </span>
                 </div>
             </div>
@@ -455,7 +457,7 @@
 
         <div class="contenidoMangaLibros">
             <div class="contenidoImagen">
-                <img src="../Imagenes/distopia.jpg" width="200">
+                <img src="../Imagenes/distopia.jpg" width="200" alt="Producto">
             </div>
             <div class="contenidoInfoMangaLibros">
                 <h2>Distopía 1</h2>
@@ -468,7 +470,7 @@
                     <span class="carritoIconoMangaLibros">
                         <span class="carritoMangaLibros">
                             <i class="fas fa-cart-plus"></i>
-                        </span> <span class="carritoTextoMangaLibros">Agregar</span></i>
+                        </span> <span class="carritoTextoMangaLibros">Agregar</span>
                     </span>
                 </div>
             </div>
@@ -476,7 +478,7 @@
 
         <div class="contenidoMangaLibros">
             <div class="contenidoImagen">
-                <img src="../Imagenes/thanos.jpg" width="200">
+                <img src="../Imagenes/thanos.jpg" width="200" alt="Producto">
             </div>
             <div class="contenidoInfoMangaLibros">
                 <h2>Thanos Abismo Infinito</h2>
@@ -489,7 +491,7 @@
                     <span class="carritoIconoMangaLibros">
                         <span class="carritoMangaLibros">
                             <i class="fas fa-cart-plus"></i>
-                        </span> <span class="carritoTextoMangaLibros">Agregar</span></i>
+                        </span> <span class="carritoTextoMangaLibros">Agregar</span>
                     </span>
                 </div>
             </div>
@@ -497,7 +499,7 @@
 
         <div class="contenidoMangaLibros">
             <div class="contenidoImagen">
-                <img src="../Imagenes/ligajust.jpg" width="200">
+                <img src="../Imagenes/ligajust.jpg" width="200" alt="Producto">
             </div>
             <div class="contenidoInfoMangaLibros">
                 <h2>Liga de la Justicia</h2>
@@ -510,36 +512,13 @@
                     <span class="carritoIconoMangaLibros">
                         <span class="carritoMangaLibros">
                             <i class="fas fa-cart-plus"></i>
-                        </span> <span class="carritoTextoMangaLibros">Agregar</span></i>
+                        </span> <span class="carritoTextoMangaLibros">Agregar</span>
                     </span>
                 </div>
             </div>
         </div>
-
-
-
-
-
-
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </section>
+    
     <section class="subHome">
         <div class="subHomeContainer">
             <div class="subHomeContainerCentro">
@@ -553,33 +532,10 @@
                             <input type="" id="email" class="emailLargo" autocorrect="off" autocapitalize="off"
                                 name="email" placeholder="Email" aria-label="Email">
                             <input type="submit" name="contact" class="btnNew" value="Enviar">
-
-
-
                         </div>
-
                     </div>
-
-
-
-
                 </div>
-
-
-
-
-
             </div>
-
-
-
-
-
-        </div>
-
-
-
-
         </div>
     </section>
 
@@ -592,7 +548,7 @@
             <h3>
                 <p>MangaFreaks</p>
                 <span>
-                    <img class="LogoImagen" src="../Imagenes/LogoPng.png" width="75">
+                    <img class="LogoImagenFooter" src="../Imagenes/LogoPng.png" alt="Logo" width="75">
                 </span>
             </h3>
 
@@ -633,8 +589,7 @@
 
             <p class="footerAbout">
                 <span>Sobre nuestra empresa</span>
-                Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus
-                vehicula sit amet.
+                MangaFreaks es nueva tienda de mangas y comics, contamos con una unica sede ubicada en Otamendi 90.
             </p>
 
             <div class="footerIcons">
@@ -653,7 +608,6 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
-    </script>
     </script>
     <script>
         AOS.init({

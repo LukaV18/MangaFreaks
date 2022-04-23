@@ -15,59 +15,61 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" v />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
         <script src="https://kit.fontawesome.com/71757bdbd3.js" crossorigin="anonymous"></script>
     
     </head>
 
 <body class="gridContainerOfertas">
     <div class="descuentoTituloCont">
-        <h3 class="descuentoTitulo">
+        <div class="descuentoTitulo">
             <p class="descuentoTexto">15% OFF PAGANDO EN EFECTIVO/TRANSFERENCIA</p>
 
-        </h3>
+        </div>
     </div>
     <header class="header">
         <div class="navContainer">
             <nav class="navMenu">
-                <nav class="navMenu">
-                    <div class="Logo">
-                        <a href="./index.html"><img class="LogoImagen" src="../Imagenes/LogoPng.png" width="150">
 
-                        </a>
+                <div class="Logo">
+                    <a href="./index.html"><img class="LogoImagen" src="../Imagenes/LogoPng.png" alt="Logo" width="150">
+
+                    </a>
+                </div>
+                <input type="checkbox" id="check">
+                <label for="check" class="barBtn">
+                    <i class="fa fa-bars"></i>
+
+                </label>
+
+
+                <ul class="navMenuItems">
+
+                    <li class="primero"><i class="fa-solid fa-fire"></i><a href="../index.html">Popular</a></li>
+                    <li><i class="fa-solid fa-book-skull"></i><a href="./mangas.html">Mangas</a></li>
+                    <li><i class="fa-solid fa-book"></i><a href="./comics.html">Cómics</a></li>
+                    <li><i class="fa-solid fa-percent"></i><a href="./ofertas.html">Ofertas</a></li>
+                    <li><i class="fa-solid fa-id-card"></i><a href="./contacto.html">Contacto</a></li>
+
+
+                </ul>
+
+                <div class="searchBar">
+                    <input type="text" placeholder="¿Qué estás buscando?" required>
+                    <div class="searchBarBtn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
-                    <input type="checkbox" id="check">
-                    <label for="check" class="barBtn">
-                        <i class="fa fa-bars"></i>
+                </div>
 
-                    </label>
-
-
-                    <ul class="navMenuItems">
-
-                        <li><i class="fa-solid fa-fire"></i><a href="../index.html">Popular</a></li>
-                        <li><i class="fa-solid fa-book-skull"></i><a href="./mangas.html">Mangas</a></li>
-                        <li><i class="fa-solid fa-book"></i><a href="./comics.html">Cómics</a></li>
-                        <li><i class="fa-solid fa-percent"></i><a href="./ofertas.html">Ofertas</a></li>
-                        <li><i class="fa-solid fa-id-card"></i><a href="./contacto.html">Contacto</a></li>
+                <span class="buyBtn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </span>
 
 
-                    </ul>
+                    <span class="userLog" onclick="myFunction()">
+                        <i class="fa-solid fa-user-ninja"></i>
                     </span>
-                    <div class="searchBar">
-                        <input type="text" placeholder="¿Qué estás buscando?" required>
-                        <div class="searchBarBtn">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </div>
-                    </div>
-
-                    <span class="buyBtn">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                        </label>
-
-                        <span class="userLog" onclick="myFunction()">
-                            <i class="fa-solid fa-user-ninja"></i>
-                </nav>
+            </nav>
         </div>
     </header>
     <h2 class="h21">
@@ -76,7 +78,7 @@
     <section class="contenidoContenedor">
         <div class="contenido">
             <div class="contenidoImagen">
-                <img src="../Imagenes/hulkOf.jpg" width="200">
+                <img src="../Imagenes/hulkOf.jpg" width="200" alt="Oferta">
             </div>
             <div class="contenidoInfo">
                 <h2>Hulk Monstruo</h2>
@@ -96,7 +98,7 @@
 
         <div class="contenido">
             <div class="contenidoImagen">
-                <img src="../Imagenes/Tarzán.jpg" width="200">
+                <img src="../Imagenes/Tarzán.jpg" width="200" alt="Oferta">
             </div>
             <div class="contenidoInfo">
                 <h2>Clásicos del Cómic: Tarzán</h2>
@@ -116,7 +118,7 @@
 
         <div class="contenido">
             <div class="contenidoImagen">
-                <img src="../Imagenes/jujustu0.jpg" width="200">
+                <img src="../Imagenes/jujustu0.jpg" width="200" alt="Oferta">
             </div>
             <div class="contenidoInfo">
                 <h2>Jujutsu Kaisen 00</h2>
@@ -136,7 +138,7 @@
 
         <div class="contenido">
             <div class="contenidoImagen">
-                <img src="../Imagenes/chain3.jpg" width="200">
+                <img src="../Imagenes/chain3.jpg" width="200" alt="Oferta">
             </div>
             <div class="contenidoInfo">
                 <h2>Chainsaw Man 03</h2>
@@ -156,7 +158,7 @@
 
         <div class="contenido">
             <div class="contenidoImagen">
-                <img src="../Imagenes/monster.jpg" width="200">
+                <img src="../Imagenes/monster.jpg" width="200" alt="Oferta">
             </div>
             <div class="contenidoInfo">
                 <h2>Monster 01</h2>
@@ -176,7 +178,7 @@
 
         <div class="contenido">
             <div class="contenidoImagen">
-                <img src="../Imagenes/darling.jpg" width="200">
+                <img src="../Imagenes/darling.jpg" width="200" alt="Oferta">
             </div>
             <div class="contenidoInfo">
                 <h2>Darling in the Franxx</h2>
@@ -196,7 +198,7 @@
 
         <div class="contenido">
             <div class="contenidoImagen">
-                <img src="../Imagenes/dragonball7.jpg" width="200">
+                <img src="../Imagenes/dragonball7.jpg" width="200" alt="Oferta">
             </div>
             <div class="contenidoInfo">
                 <h2>Dragon Ball Super 07</h2>
@@ -216,7 +218,7 @@
 
         <div class="contenido">
             <div class="contenidoImagen">
-                <img src="../Imagenes/snk5.jpg" width="200">
+                <img src="../Imagenes/snk5.jpg" width="200" alt="Oferta">
             </div>
             <div class="contenidoInfo">
                 <h2>Attack on Titan 05</h2>
@@ -236,7 +238,7 @@
 
         <div class="contenido">
             <div class="contenidoImagen">
-                <img src="../Imagenes/beatless.jpg" width="200">
+                <img src="../Imagenes/beatless.jpg" width="200" alt="Oferta">
             </div>
             <div class="contenidoInfo">
                 <h2>Beatless 01</h2>
@@ -256,7 +258,7 @@
 
         <div class="contenido">
             <div class="contenidoImagen">
-                <img src="../Imagenes/porco.jpg" width="200">
+                <img src="../Imagenes/porco.jpg" width="200" alt="Oferta">
             </div>
             <div class="contenidoInfo">
                 <h2>Porco Rosso</h2>
@@ -299,36 +301,12 @@
                             <input type="" id="email" class="emailLargo" autocorrect="off" autocapitalize="off"
                                 name="email" placeholder="Email" aria-label="Email">
                             <input type="submit" name="contact" class="btnNew" value="Enviar">
-
-
-
                         </div>
-
                     </div>
-
-
-
-
                 </div>
-
-
-
-
-
             </div>
-
-
-
-
-
-        </div>
-
-
-
-
         </div>
     </section>
-
 
     <footer class="footer">
 
@@ -337,7 +315,7 @@
             <h3>
                 <p>MangaFreaks</p>
                 <span>
-                    <img class="LogoImagen" src="../Imagenes/LogoPng.png" width="75">
+                    <img class="LogoImagenFooter" src="../Imagenes/LogoPng.png" width="75" alt="Logo">
                 </span>
             </h3>
 
@@ -379,8 +357,7 @@
 
             <p class="footerAbout">
                 <span>Sobre nuestra empresa</span>
-                Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus
-                vehicula sit amet.
+                MangaFreaks es nueva tienda de mangas y comics, contamos con una unica sede ubicada en Otamendi 90.
             </p>
 
             <div class="footerIcons">
@@ -397,15 +374,6 @@
 
     </footer>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    </script>
-    <script>
-        AOS.init({
-            disable: 'mobile'
-        });
-    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
