@@ -223,7 +223,7 @@ button:focus {
 .gridContainer {
   display: -ms-grid;
   display: grid;
-  grid-template: "descuentoTitulo" "header" "h21" "main1" "h22" "main2" "tituloVioleta" "main3" "bannerHome" "subHome" "footer" / 1920px;
+  grid-template: "descuentoTitulo" "header" "h21" "main1" "bannerHome" "h22" "main2" "tituloVioleta" "main3" "subHome" "footer" / 1920px;
 }
 
 .gridContainerMangaLibros {
@@ -301,8 +301,8 @@ button:focus {
   max-height: -moz-fit-content;
   max-height: fit-content;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
 }
 
 .footer h3 {
@@ -518,7 +518,7 @@ button:focus {
   font-weight: bold;
   list-style: none;
   font-weight: bold;
-  margin-left: 100px;
+  margin-left: 113px;
   margin-top: 120px;
 }
 
@@ -556,7 +556,7 @@ button:focus {
 
 .userLog {
   margin-bottom: 60px;
-  margin-left: 30px;
+  margin-left: 0px;
   cursor: pointer;
   font-size: 25px;
 }
@@ -615,6 +615,10 @@ li:active {
   transition: 0.4s;
 }
 
+.bannerHome {
+  grid-area: bannerHome;
+}
+
 .bannerHome a {
   color: black;
   text-decoration: none;
@@ -666,21 +670,20 @@ header .fa-solid {
   background: linear-gradient(90deg, salmon 0%, #db9833 50%, salmon 100%);
   width: 100%;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 1.3rem;
   color: #2e2323;
   padding: 18px 12px;
 }
 
-h3 .seleccion2 {
+.tituloVioleta {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-align: center;
   background: -webkit-gradient(linear, left top, right top, from(salmon), color-stop(50%, #7a3374), to(salmon));
   background: linear-gradient(90deg, salmon 0%, #7a3374 50%, salmon 100%);
   padding: 18px 12px;
-  height: 70px;
   width: 100%;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 1.3rem !important;
   color: #2e2323;
 }
 
@@ -690,7 +693,7 @@ h3 .seleccion2 {
   background: -webkit-gradient(linear, left top, right top, from(salmon), color-stop(70%, #bf4545), to(salmon));
   background: linear-gradient(90deg, salmon 0%, #bf4545 70%, salmon 100%);
   padding: 18px 12px;
-  height: 70px;
+  height: 65px;
   width: 100%;
   text-transform: uppercase;
   font-size: 20px;
@@ -969,13 +972,14 @@ span.carritoTextoMangaLibros {
 }
 
 .subHome {
+  grid-area: subHome;
   background: -webkit-gradient(linear, left top, right top, from(#cf60a5), color-stop(50%, #db9833), to(#cf60a5));
   background: linear-gradient(90deg, #cf60a5 0%, #db9833 50%, #cf60a5 100%);
 }
 
 .subHomeContainer {
   width: 100%;
-  padding: 60px 60px;
+  padding: 27px 50px;
 }
 
 div .subContenido {
@@ -992,7 +996,7 @@ div .subContenido {
 .subContenido1 {
   display: block;
   font-size: 14px;
-  margin-bottom: 8px !important;
+  margin-bottom: 0;
   font-weight: 500;
   color: antiquewhite;
   -ms-flex-preferred-size: 0;
@@ -1014,7 +1018,7 @@ div .subContenido {
   display: -ms-flexbox;
   display: flex;
   height: 50px;
-  margin-top: 15px;
+  margin-top: 48px;
 }
 
 .btnNew {
@@ -1421,7 +1425,6 @@ div .subContenido {
     line-height: 26px;
   }
   .seleccion {
-    font-size: 30px;
     margin-top: 62px;
     padding: 30px 12px;
   }
@@ -1976,7 +1979,6 @@ div .subContenido {
     line-height: 26px;
   }
   .seleccion {
-    font-size: 30px;
     margin-top: 62px;
     padding: 30px 12px;
   }
@@ -2505,9 +2507,11 @@ div .subContenido {
     border-radius: 0 4px 4px 0;
   }
   .carritoIconoOfertas .fa-cart-plus {
-    float: right;
+    float: left;
+    margin: 0;
     margin-top: 0px;
-    margin-right: 44px;
+    left: 0px;
+    margin-left: 21px;
     background-image: linear-gradient(315deg, red 0%, #db9833 74%);
     font-size: 1.1em;
     padding: 8px;
@@ -2531,7 +2535,6 @@ div .subContenido {
     line-height: 26px;
   }
   .seleccion {
-    font-size: 30px;
     margin-top: 62px;
     padding: 30px 12px;
   }
@@ -2683,7 +2686,8 @@ div .subContenido {
     display: none;
   }
   .searchBar {
-    margin-left: 12%;
+    left: 0;
+    margin-left: 13%;
     margin-bottom: 0px;
     margin-top: 0px;
     -webkit-transform: scale(0.8);
@@ -2714,16 +2718,20 @@ div .subContenido {
     margin-top: 0px;
   }
   .carritoIcono .fa-cart-plus {
-    margin-right: 39px;
-    padding: 24px;
-    margin-right: 95px;
     padding: 6px 12px;
     margin-top: 5px;
+    float: left;
+    margin: 0;
+    margin-top: 0px;
+    left: 0px;
+    margin-left: 21px;
   }
   .carritoIconoMangaLibros {
-    margin-right: 56px;
-    padding: 6px 12px;
-    margin-top: 26px;
+    float: left;
+    margin: 0;
+    margin-top: 22px;
+    left: 0px;
+    margin-left: 17px;
   }
   .carritoIconoMangaLibros .fa-cart-plus {
     margin-right: 0;
@@ -3090,7 +3098,6 @@ div .subContenido {
     line-height: 26px;
   }
   .seleccion {
-    font-size: 30px;
     margin-top: 62px;
     padding: 30px 12px;
   }
@@ -3358,6 +3365,7 @@ div .subContenido {
     -ms-flex-direction: column;
     flex-direction: column;
     gap: 20px;
+    padding: 50px 62px;
   }
   .subContenido1 {
     font-size: 17px;
@@ -3595,7 +3603,7 @@ div .subContenido {
   .gridContainer {
     display: -ms-grid;
     display: grid;
-    grid-template: "descuentoTitulo" "header" "h21" "main1" "h22" "main2" "tituloVioleta" "main3" "bannerHome" "subHome" "footer" / 768px;
+    grid-template: "descuentoTitulo" "header" "h21" "main1" "bannerHome" "h22" "main2" "tituloVioleta" "main3" "subHome" "footer" / 768px;
   }
   .precio1Oferta {
     display: block;
@@ -3643,9 +3651,6 @@ div .subContenido {
   .carritoIconoOfertas i {
     font-size: 30px;
     line-height: 26px;
-  }
-  .seleccion {
-    font-size: 21px;
   }
   .carritoIconoMangaLibros {
     margin-right: 38px;
@@ -3836,7 +3841,7 @@ div .subContenido {
   .gridContainer {
     display: -ms-grid;
     display: grid;
-    grid-template: "descuentoTitulo" "header" "h21" "main1" "h22" "main2" "tituloVioleta" "main3" "bannerHome" "subHome" "footer" / 1024px;
+    grid-template: "descuentoTitulo" "header" "h21" "main1" "bannerHome" "h22" "main2" "tituloVioleta" "main3" "subHome" "footer" / 1024px;
   }
   .bodycontact {
     background-image: url(../Imagenes/mangabackground2.jpg);
@@ -3910,17 +3915,15 @@ div .subContenido {
     background: linear-gradient(90deg, salmon 0%, #db9833 50%, salmon 100%);
     width: 100%;
     text-transform: uppercase;
-    font-size: 24px;
     color: #2e2323;
     padding: 18px 12px;
-    font-weight: 600;
   }
   .seleccion3 {
     font-family: sans-serif;
     text-align: center;
     width: 100%;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 1.3rem !important;
     color: #2e2323;
     padding: 23px 12px;
     font-weight: 600;
@@ -4191,7 +4194,7 @@ div .subContenido {
     display: -ms-flexbox;
     display: flex;
     height: 50px;
-    margin-top: 40px;
+    margin-top: 70px;
     margin-left: 16px;
   }
   .carritoIconoMangaLibros {
@@ -4279,7 +4282,7 @@ div .subContenido {
   .gridContainer {
     display: -ms-grid;
     display: grid;
-    grid-template: "descuentoTitulo" "header" "h21" "main1" "h22" "main2" "tituloVioleta" "main3" "bannerHome" "subHome" "footer" / 1280px;
+    grid-template: "descuentoTitulo" "header" "h21" "main1" "bannerHome" "h22" "main2" "tituloVioleta" "main3" "subHome" "footer" / 1280px;
   }
   .bodycontact {
     background-image: url(../Imagenes/mangabackground2.jpg);
@@ -4353,7 +4356,6 @@ div .subContenido {
     background: linear-gradient(90deg, salmon 0%, #db9833 50%, salmon 100%);
     width: 100%;
     text-transform: uppercase;
-    font-size: 24px;
     color: #2e2323;
     padding: 18px 12px;
     font-weight: 600;
@@ -4718,3 +4720,4 @@ div .subContenido {
     text-align: center;
   }
 }
+/*# sourceMappingURL=main.css.map */
