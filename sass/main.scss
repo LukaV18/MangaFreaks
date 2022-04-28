@@ -6,6 +6,29 @@
 	padding: 0;
 	margin: 0;
 }
+
+/* maps */
+$iconos: (
+  "buy": darksalmon,
+  "log": darksalmon,
+  "nav": darksalmon,
+);
+@each $nombre, $valor in $iconos {
+   .icon-#{$nombre} {
+     color: $valor;
+   }
+}
+
+/* maps close */
+
+/* mixing */
+@mixin animacion-icon {
+-webkit-transform: translateY(-3px);
+transform: translateY(-3px);
+-webkit-transition: 0.3s ease-in-out;
+transition: 0.3s ease-in-out;
+filter: drop-shadow(0px 4px 1px #000000); 
+}
 .card {
 	background: linear-gradient(221deg, salmon 0%, #db9833 50%, salmon 100%);
 	padding: 30px 40px;
@@ -321,13 +344,6 @@ button {
 				color: #fff;
 				display: inline-block;
 				padding-right: 5px;
-				content: "|";
-				font-weight: 300;
-				font-size: 20px;
-				left: 0;
-				color: #fff;
-				display: inline-block;
-				padding-right: 5px;
 			}
 		}
 		.link-1 {
@@ -371,6 +387,8 @@ button {
 			line-height: 42px;
 			margin: 10px 15px;
 			vertical-align: middle;
+      -webkit-transition: 0.3s ease-in-out;
+      transition: 0.3s ease-in-out;
 			&.fa-envelope {
 				font-size: 17px;
 				line-height: 38px;
@@ -390,6 +408,9 @@ button {
 			vertical-align: middle;
 			margin: 0;
 		}
+    i:hover {
+      @include animacion-icon;
+    }
 	}
 	.footerRight {
 		width: 20%;
@@ -448,8 +469,14 @@ button {
 			line-height: 35px;
 			margin-right: 3px;
 			margin-bottom: 5px;
+      -webkit-transition: 0.3s ease-in-out;
+      transition: 0.3s ease-in-out;
 		}
 	}
+
+  .footerIcons a:hover {
+    @include animacion-icon;
+  }
 }
 .Logo {
 	display: -webkit-box;
@@ -487,6 +514,8 @@ button {
 	font-weight: bold;
   margin-left: 113px;
 	margin-top: 120px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 	li {
 		padding: 0px 7px;
 		margin: 0 8px;
@@ -496,13 +525,19 @@ button {
  Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 		display: block;
 		text-transform: uppercase;
+    -webkit-transition: 0.1s ease-in-out;
+    transition: 0.1s ease-in-out;
 		i {
 			margin: 0 10px;
 			border-radius: 3px;
 			font-size: 25px;
+      -webkit-transition: 0.1s ease-in-out;
+      transition: 0.1s ease-in-out;
 		}
 		a {
 			padding: 7px 13px;
+      -webkit-transition: 0.1s ease-in-out;
+      transition: 0.1s ease-in-out;
 		}
 	}
 }
@@ -511,6 +546,8 @@ button {
 	margin-left: 340px;
 	cursor: pointer;
 	font-size: 25px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 	i {
 		color: black;
 		color: black;
@@ -521,10 +558,20 @@ button {
   margin-left: 0px;
 	cursor: pointer;
 	font-size: 25px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 	i {
 		color: black;
 		color: black;
 	}
+}
+
+.buyBtn:hover {
+  @include animacion-icon;
+}
+
+.userLog:hover {
+  @include animacion-icon
 }
 .searchBar {
 	margin-bottom: 60px;
@@ -613,7 +660,7 @@ footer {
 }
 header {
 	.fa-solid {
-		color: darksalmon;
+    color:map-get($map:$iconos, $key:"nav" );
 	}
 }
 .seleccion {
@@ -729,9 +776,14 @@ header {
 .contenidoPrecio {
 	padding: auto;
 }
-.contenidoPrecioCaja,
-.contenidoPrecioCajaOferta {
+.contenidoPrecioCaja {
 	float: right;
+}
+
+.contenidoPrecioCajaOferta {
+	@extend .contenidoPrecioCaja;
+  padding: auto;
+  
 }
 .precio1 {
 	display: block;

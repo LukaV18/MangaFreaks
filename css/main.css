@@ -7,6 +7,21 @@
   margin: 0;
 }
 
+/* maps */
+.icon-buy {
+  color: darksalmon;
+}
+
+.icon-log {
+  color: darksalmon;
+}
+
+.icon-nav {
+  color: darksalmon;
+}
+
+/* maps close */
+/* mixing */
 .card {
   background: linear-gradient(221deg, salmon 0%, #db9833 50%, salmon 100%);
   padding: 30px 40px;
@@ -344,13 +359,6 @@ button:focus {
   color: #fff;
   display: inline-block;
   padding-right: 5px;
-  content: "|";
-  font-weight: 300;
-  font-size: 20px;
-  left: 0;
-  color: #fff;
-  display: inline-block;
-  padding-right: 5px;
 }
 
 .footer .footerLinks .link-1:before {
@@ -395,6 +403,8 @@ button:focus {
   line-height: 42px;
   margin: 10px 15px;
   vertical-align: middle;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .footer .footerCenter i.fa-envelope {
@@ -415,6 +425,15 @@ button:focus {
   font-weight: 400;
   vertical-align: middle;
   margin: 0;
+}
+
+.footer .footerCenter i:hover {
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  -webkit-filter: drop-shadow(0px 4px 1px #000000);
+          filter: drop-shadow(0px 4px 1px #000000);
 }
 
 .footer .footerRight {
@@ -479,6 +498,17 @@ button:focus {
   line-height: 35px;
   margin-right: 3px;
   margin-bottom: 5px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.footer .footerIcons a:hover {
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  -webkit-filter: drop-shadow(0px 4px 1px #000000);
+          filter: drop-shadow(0px 4px 1px #000000);
 }
 
 .Logo {
@@ -520,6 +550,8 @@ button:focus {
   font-weight: bold;
   margin-left: 113px;
   margin-top: 120px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .navMenuItems li {
@@ -530,16 +562,22 @@ button:focus {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   display: block;
   text-transform: uppercase;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
 }
 
 .navMenuItems li i {
   margin: 0 10px;
   border-radius: 3px;
   font-size: 25px;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
 }
 
 .navMenuItems li a {
   padding: 7px 13px;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
 }
 
 .buyBtn {
@@ -547,6 +585,8 @@ button:focus {
   margin-left: 340px;
   cursor: pointer;
   font-size: 25px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .buyBtn i {
@@ -559,11 +599,31 @@ button:focus {
   margin-left: 0px;
   cursor: pointer;
   font-size: 25px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .userLog i {
   color: black;
   color: black;
+}
+
+.buyBtn:hover {
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  -webkit-filter: drop-shadow(0px 4px 1px #000000);
+          filter: drop-shadow(0px 4px 1px #000000);
+}
+
+.userLog:hover {
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  -webkit-filter: drop-shadow(0px 4px 1px #000000);
+          filter: drop-shadow(0px 4px 1px #000000);
 }
 
 .searchBar {
@@ -781,9 +841,12 @@ header .fa-solid {
   padding: auto;
 }
 
-.contenidoPrecioCaja,
-.contenidoPrecioCajaOferta {
+.contenidoPrecioCaja, .contenidoPrecioCajaOferta {
   float: right;
+}
+
+.contenidoPrecioCajaOferta {
+  padding: auto;
 }
 
 .precio1 {
